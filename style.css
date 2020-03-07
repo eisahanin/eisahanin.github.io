@@ -3,31 +3,23 @@ html {
 	color: #707070;
 	text-align: center;
 	margin: auto;
+	font-size: 16pt;
 }
 
 header {
-	padding: 60px;
-}
-
-.subtitle {
-	font-size: 18vm;
-}
-
-.quote {
-	font-size: 16vm;
+	width: 100%;
+	border-width: 2px;
+	margin: auto;
 }
 
 .container {
 	display: grid;
-	max-width: 1920px;
+	max-width: 1440px;
 	padding: 30px;
 	grid-columns: 50% 50%;
 	grid-gap: 1rem;
-}
-
-div.item {
-	display:block;
-	
+	font-size: 14pt;
+	margin: auto;
 }
 
 .sig {
@@ -47,7 +39,6 @@ div.item {
 
 .roolong {
 	display: flex;
-	flex-wrap: wrap;
 	grid-row: 3 / 4;
 	grid-column: 1 / 4;
 	justify-content: between;
@@ -67,25 +58,16 @@ div.item {
 	grid-column: 3 / 4;
 }
 
-.print1 {
+.print {
 	grid-row: 6 / 7;
-	grid-column: 1 / 2;
-}
-.print2 {
-	grid-row: 6 / 7;
-	grid-column: 2 / 3;
-}
-.print3 {
-	grid-row: 6 / 7;
-	grid-column: 3 / 4;
+	grid-column: 1 / 4;
+	display: flex;
 }
 
 .resonanz {
+	display: flex;
 	grid-row: 7 / 8;
 	grid-column: 1 / 4;
-	display: flex;
-	flex-wrap: wrap;
-	padding: 1rem;
 }
 
 img {
@@ -94,13 +76,31 @@ img {
 	padding: 10px;
 }
 
-img:hover {
+.button:hover a {
+	background-color: #FFF;
+	color: #707070
 }
 
-@media screen and (max-width: 360px) {
-	
+.button a {
+	background-color: #707070;
+	padding: 10px;
+	text-align: center;
+	color: #FFF;
+	margin: auto;
+	width: 100%;
+}
+
+@media screen and (max-width: 720px) {
 	.container {
-		display: flex;
-		flex-wrap: wrap;
+	display: block;
+	max-width: 1440px;
+	padding: 30px;
+	font-size: 14pt;
+	margin: auto;
 	}
+	
+	.roolong, .print, .resonanz {
+		display: block;
+	}
+	
 }
