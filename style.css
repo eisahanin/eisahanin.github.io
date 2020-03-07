@@ -20,7 +20,7 @@ header {
 .container {
 	display: grid;
 	max-width: 1920px;
-	padding: 10px;
+	padding: 30px;
 	grid-columns: 50% 50%;
 	grid-gap: 1rem;
 }
@@ -51,7 +51,7 @@ div.item {
 	grid-row: 3 / 4;
 	grid-column: 1 / 4;
 	justify-content: between;
-	 padding: 1rem;
+	padding: 1rem;
 }
 
 .unido1 {
@@ -85,6 +85,7 @@ div.item {
 	grid-column: 1 / 4;
 	display: flex;
 	flex-wrap: wrap;
+	padding: 1rem;
 }
 
 img {
@@ -96,10 +97,10 @@ img {
 img:hover {
 }
 
-@media only screen and (max-width: 360px) {
-	display: block;
+@media screen and (max-width: 360px) {
 	
-	header {
-		
+	.container {
+		display: flex;
+		flex-wrap: wrap;
 	}
 }
