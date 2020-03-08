@@ -23,12 +23,12 @@ img {
 	padding: 10px;
 }
 
-.button:hover a {
+figcaption:hover a {
 	background-color: #FFF;
 	color: #707070
 }
 
-.button a {
+figcaption a {
 	background-color: #707070;
 	padding: 10px;
 	text-align: center;
