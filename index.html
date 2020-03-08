@@ -2,75 +2,105 @@
 <html>
 <head>
 	<link href="style.css" type="text/css" rel="stylesheet">
+	<link href="bootstrap-4.4.1/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 </head>
-
-<header>
-	<div class="name">
-		<h1>Hanin Eisa</h1>
-		<h5 class="quote"> Graphic Design - Vienna, Austria <br /> "Ich will einfach Geschichten erzählen." </h5>
-	</div>
-	<div class="contact">
-			<h5 class="subtitle"> eisahanin@gmail.com <br /> +43 650 3910271 </h5>
-	</div>
-</header>
-
-	<body>
-		<div class="container">
-			<div class="item sig">
-				<h3>Ich brauchte eine Signatur.</h3>
-				<img src="src/portfolio/sig.jpg" />
-			</div>
-			
-			<div class="item game1">
-				<h3>Grafiken für Spiele</h3>
-				<img src="src/portfolio/ludumjam.jpg" />
-				<div class="button">
-					<a href="https://cyberjack.itch.io/microbiota-panic">
-						to Game Page
-					</a>
-				</div>
-			</div>
-			<div class="item game2">
-				<img src="src/portfolio/pinion.jpg" />
-			</div>
-			
-			<div class="item roolong">
-				<img src="src/portfolio/roolong1.jpg" />
-				<img src="src/portfolio/roolong2.jpg" />
-				<img src="src/portfolio/roolong3.jpg" />
-			</div>
-		
-			<div class="item unido1">
-				<h3>"Die Event sollte so aussehen..."</h3>
-				<img src="src/portfolio/ticad7.jpg" />
-				<div class="button">
-					<a href="https://www.unido.org/events/ticad-7">to Event Page</a>
-				</div>
-			</div>
-			<div class="item unido2">
-				<img src="src/portfolio/FGI201901.jpg" />
-			</div>
-			<div class="item unido3">
-				<img src="src/portfolio/FGI201902.jpg" />
-				<div class="button">
-					<a href="https://www.unido.org/events/2019-forum-globalization-and-industrialization" >to Event Page</a>
-				</div>
-			</div>
-			
-			<div class="item print">
-				<img src="src/portfolio/taichi.jpg" />
-				<img src="src/portfolio/inktober.jpg" />
-				<img src="src/portfolio/charadesign.jpg" />
-			</div>
-		
-			<div class="item resonanz">
-				<img src="src/portfolio/resonanz1.jpg" />
-				<img src="src/portfolio/resonanz2.jpg" />
-				<img src="src/portfolio/resonanz3.jpg" />
-			</div>
+<body>
+	<header class="container">
+		<div class="row">
+			<h1 class="col-sm-4">Hanin Eisa</h1>
+			<h5 class="col-sm-8 text-right" > Graphic Design - Vienna, Austria <br />
+			eisahanin@gmail.com <br /> +43 650 3910271 </h5>
 		</div>
+	</header>
+
+		<section class="container">
+			<div class="row">
+				<figure class="col-sm-8">
+					<h6 class="text-center">Ich brauchte eine Signatur.</h6>
+					<img src="src/portfolio/sig.jpg" />
+				</figure>
+				<figure class="col-sm-4">
+					<h6 class="text-center">Grafiken für Spiele</h6>
+					<img src="src/portfolio/pinion.jpg" />
+					<img src="src/portfolio/ludumjam.jpg" />
+					<figcaption class="button text-center">
+						<a href="https://cyberjack.itch.io/microbiota-panic">
+					to Microbiota Panic
+						</a>
+					</figcaption>
+				</figure>
+			</div>
+			
+			<div class="row">
+				<figure class="col-sm-4">
+					<img src="src/portfolio/roolong1.jpg" />
+				</figure>
+				<figure class="col-sm-4">
+					<img src="src/portfolio/roolong2.jpg" />
+				</figure>
+				<figure class="col-sm-4">
+					<img src="src/portfolio/roolong3.jpg" />
+				</figure>
+			</div>
+			<div class="row">
+				<p class="col-sm-8">
+				"Das Event sollte so aussehen..."
+				</p>
+			</div>
+			<div class="row">
+				<figure class="col-sm-8">
+					<img src="src/portfolio/ticad7.jpg" />
+					<figcaption class="button text-center">
+						<a href="https://www.unido.org/events/ticad-7">to Event Page</a>
+					</figcaption>
+				</figure>
+				<figure class="col-sm-4">
+					<img src="src/portfolio/FGI201901.jpg" />
+					<img src="src/portfolio/FGI201902.jpg" />
+					<figcaption class="button text-center">
+						<a href="https://www.unido.org/events/2019-forum-globalization-and-industrialization" >to Event Page</a>
+					</figcaption>
+				</figure>
+			</div>
+			
+			<div class="row">
+				<figure class="col-sm-4">
+					<img src="src/portfolio/taichi.jpg" />
+				</figure>
+				<figure class="col-sm-4">
+					<img src="src/portfolio/inktober.jpg" />
+					<figcaption class="button text-center">
+						<a href="https://gumroad.com/l/bBTKH" >to eBook</a>
+					</figcaption>
+				</figure>
+				<figure class="col-sm-4">
+					<img src="src/portfolio/charadesign.jpg" />
+					<figcaption class="button text-center">
+						<a href="https://gumroad.com/l/UUclN" >to eBook</a>
+					</figcaption>
+				</figure>
+				
+			</div>
+		
+			<div class="row">
+				<figure class="col-sm-4">
+					<img src="src/portfolio/resonanz2.jpg" />
+				</figure>
+				<figure class="col-sm-4">
+					<img src="src/portfolio/resonanz3.jpg" />
+				</figure>
+				<figure class="col-sm-4">
+					<img src="src/portfolio/resonanz1.jpg" />
+				</figure>
+			</div>
+		</section>
+		
+		<footer class="container">
+			<div class="row">
+				<p class="col-sm-12 text-center">
+					2018 - 2020 (c) Hanin Eisa. Content belong to their respective owners.
+				</p>
+			</div>
+		</footer>
 	</body>
-	<footer>
-		<p>2018 - 2020 (c) Hanin Eisa. Content belong to their respective owners.</p>
-	</footer>
 </html>
