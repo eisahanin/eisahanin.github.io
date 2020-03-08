@@ -37,9 +37,3 @@ img {
 	width: 100%;
 	font-size: 12pt;
 }
-
-@media only screen and (max-width: 768px) {
-	.container {
-	display: block;
-	}
-}
