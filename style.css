@@ -17,6 +17,10 @@ div {
 	text-align: center;
 }
 
+#bio img {
+	width: 50%;
+}
+
 .container {
 	padding: 30px;
 	font-size: 14pt;
