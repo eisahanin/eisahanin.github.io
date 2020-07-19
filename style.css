@@ -1,26 +1,31 @@
 html {
-	font-family: Roboto, sans-serif;
-	color: #707070;
-	text-align: center;
+	font-family: Montserrat, sans-serif;
+	color: 4D5A61;
 	margin: auto;
-	font-size: 16pt;
 }
 
-header {
-	width: 100%;
-	border-width: 2px black;
+div {
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+}
+
+#bio {
+	max-width: 720px;
+	border: 2px solid #4D5A61;
+	margin: 64px auto 32px;
+	padding: 32px;
+	text-align: center;
 }
 
 .container {
 	padding: 30px;
 	font-size: 14pt;
-	width: 1440px;
+	max-width: 1440px;
 }
 
 img, video {
 	width: 100%;
 	height: auto;
-	padding: 10px;
 }
 
 .carousel-control-prev-icon {
@@ -31,17 +36,16 @@ img, video {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
-figcaption:hover a {
-	background-color: #FFF;
-	color: #707070
+a:hover{
+	border: 1px solid #4D5A61;
 }
 
-figcaption a {
-	background-color: #707070;
+a{
+	background-color: #FFF;
 	padding: 10px;
+	color: #4D5A61;
 	text-align: center;
-	color: #FFF;
 	margin: auto;
-	width: 100%;
+	width: 75%;
 	font-size: 12pt;
 }
