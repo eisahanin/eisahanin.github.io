@@ -4,14 +4,13 @@ html {
 	margin: auto;
 }
 
-div {
+div * {
 	font-family: Montserrat, sans-serif;
 	text-align: center;
 }
 
 #bio {
 	max-width: 720px;
-	border: 2px solid #4D5A61;
 	margin: 64px auto 32px;
 	padding: 32px;
 	text-align: center;
@@ -27,7 +26,7 @@ div {
 	max-width: 1440px;
 }
 
-img, video {
+img *, video * {
 	width: 100%;
 	height: auto;
 }
