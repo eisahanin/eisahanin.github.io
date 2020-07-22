@@ -1,41 +1,47 @@
 html {
 	font-family: Montserrat, sans-serif;
 	color: #4D5A61;
-	margin: 64px 0px;
 	background: url(bg.png) top left repeat;
+	padding-top:64px;
 	background-size: 64px;
 }
 
 div {
 	font-family: Montserrat, sans-serif;
-	text-align: center;
-	padding: 32px;
+	text-align: left;
+	margin: auto;
 }
 
-#bio {
-	margin: auto auto 32px;
+header, footer {
+	margin: auto;
 	padding: 32px;
 	text-align: center;
-	background-color: white;
+	width: 512px;
+}
+
+header {
 	font-size: 1.5em;
 }
 
-#bio img {
-	width: 12.5%;
+footer {
+	padding-top: 64px;
+	font-size: 0.75em;
 }
 
-#bio a {
-	color: #FFF;
+.logo {
 	transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s;
-}
-#bio a:hover {
-	color: #FFF;
-	box-shadow: 0px 0px white;
-	transform: translate(0px,0px);
+	height: auto;
 	background-color: #FFF;
 }
 
-#bio a:hover img {
+.logo:hover {
+	box-shadow: 0px 0px white;
+	transform: translate(0px,0px);
+	background-color: #FFF;
+	border: 1px hidden #FFF;
+}
+
+.logo img:hover {
 	animation: shake 0.2s;
 	animation-iteration-count: 3; 
 }
@@ -48,22 +54,29 @@ div {
 
 .container {
 	font-size: 14pt;
+	
 }
 
 img, video * {
 	max-width: 100%;
 	height: auto;
+	margin:auto;
 }
 
 a:hover{
 	box-shadow: 16px 16px #4D5A61;
 	transform: translate(-8px,-8px);
+	border: 1px solid #4D5A61;
+}
+
+.button {
+	padding: 12px;
 	background-color: #FFF;
 }
 
 a{
 	color: #4D5A61;
+	padding: 12px;
 	text-align: center;
-	padding: 8px;
-	transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s;
+	transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s, border 0.5s;
 }
