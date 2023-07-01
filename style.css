@@ -1,7 +1,7 @@
 html {
 	font-family: Montserrat, sans-serif;
 	color: #4D5A61;
-	background: url(bg.png) top left repeat;
+	background: url(bg.png) top repeat;
 	padding-top:64px;
 	background-size: 64px;
 }
