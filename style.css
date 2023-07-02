@@ -30,7 +30,6 @@ footer {
 
 .logo {
 	transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s;
-	height: auto;
 	background-color: #FFF;
 }
 
@@ -39,6 +38,12 @@ footer {
 	transform: translate(0px,0px);
 	background-color: #FFF;
 	border: 1px hidden #FFF;
+}
+
+.logo img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo img:hover {
