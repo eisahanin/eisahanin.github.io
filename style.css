@@ -85,4 +85,5 @@ a{
 	text-align: center;
 	transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s, border 0.5s;
 	font-weight: bolder;
+	background-size: 100%;
 }
