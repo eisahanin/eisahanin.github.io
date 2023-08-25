@@ -79,7 +79,8 @@ a:hover{
 }
 
 a{
-	color: #4D5A61;
+	color: black;
+	text-decoration: underline;
 	padding: 12px;
 	text-align: center;
 	transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s, border 0.5s;
