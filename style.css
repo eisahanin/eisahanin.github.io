@@ -67,6 +67,10 @@ img, video * {
 	margin:auto;
 }
 
+video::cue {
+  font-size: 4rem;
+}
+
 a:hover{
 	box-shadow: 16px 16px #4D5A61;
 	transform: translate(-8px,-8px);
