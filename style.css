@@ -43,8 +43,14 @@ footer {
 	display: block;
   margin-left: auto;
   margin-right: auto;
+	width: 100%;
 }
 
+@media screen and (max-width: 600px;) {
+	.logo img {
+		width: 75%;
+	}
+}
 .logo img:hover {
 	animation: shake 0.2s;
 	animation-iteration-count: 3;
@@ -75,6 +81,7 @@ a:hover{
 	box-shadow: 16px 16px #4D5A61;
 	transform: translate(-8px,-8px);
 	border: 1px solid #4D5A61;
+	border-radius: 8px;
 }
 
 .button {
@@ -90,4 +97,5 @@ a{
 	transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s, border 0.5s;
 	font-weight: bolder;
 	background-size: 100%;
+	border-radius: 8px;
 }
