@@ -27,6 +27,13 @@ footer {
 	font-size: 0.75em;
 }
 
+#nav .button{
+ color: black; text-decoration: underline;
+ padding: 10px;
+ margin:auto;
+ width: 80%;
+}
+
 .logo {
 	transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s;
 	background-color: #FFF;
