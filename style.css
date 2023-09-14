@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;700;900&display=swap');
+
 html {
-	font-family: Montserrat, sans-serif;
 	color: #4D5A61;
 	background: url(bg.png);
 	padding-top:64px;
@@ -8,9 +9,14 @@ html {
 }
 
 div {
-	font-family: Montserrat, sans-serif;
+	font-family: 'Lexend', Montserrat, sans-serif;
 	text-align: left;
 	margin: auto;
+}
+
+h1, h2, h3 {
+	font-family: 'Lexend', Montserrat, sans-serif;
+	font-weight: bolder;
 }
 
 header, footer {
