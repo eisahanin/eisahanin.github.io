@@ -90,6 +90,10 @@ video::cue {
   font-size: 4rem;
 }
 
+.zoom:hover {
+	box-shadow: 16px 16px #4D5A61;
+}
+
 a:hover{
 	box-shadow: 16px 16px #4D5A61;
 	transform: translate(-8px,-8px);
