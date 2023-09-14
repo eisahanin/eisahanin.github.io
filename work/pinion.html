@@ -19,7 +19,7 @@
 		 new google.translate.TranslateElement({pageLanguage: 'de', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
 		}
 		</script>
-				<div class="col-lg-2" id="google_translate_element">
+				<div class="col-lg-2" id="google_translate_element" aria-label="Google Translate Dropdown">
 				</div>
 				<div class="col-lg-10">
 				</div>
@@ -32,7 +32,7 @@
 					<h1 class="col-lg-12">PINION</h1>
 			</div>
 			<div class="row">
-					<img src="../src/pinion.png" alt="Zwei Smartphones mit ein Beispiel der Pinion Gameplay." style="padding: 32px; width:60%;" class="col-lg-6" />
+					<img data-toggle="modal" data-target="#pinion" src="../src/pinion.png" alt="Zwei Smartphones mit ein Beispiel der Pinion Gameplay." style="padding: 32px; width:60%;" class="col-lg-6 zoom" />
 					<div class="col-lg-6">
 						<h2>Projekt Overview</h2>
 						<br />
@@ -41,6 +41,18 @@
 						<p>Ein Kollaborationsprojekt mit Tiny Helmet Games. Ein Endless Bullet Arcade Game, in dem Spieler die richtige Form in dem richtigen Loch hereinfließen. Der Schwierigkeit erhöht sich mit Geschwindigkeit und mehrere Löcher.
 						</p>
 					</div>
+			</div>
+			<div class="modal fade" id="pinion">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-body">
+						<img src="../src/pinion.png" alt="Zwei Smartphones mit ein Beispiel der Pinion Gameplay." />
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
 			</div>
 		</section>
 		<br />

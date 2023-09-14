@@ -14,9 +14,8 @@ div {
 	margin: auto;
 }
 
-h1, h2, h3 {
-	font-family: 'Lexend', Montserrat, sans-serif;
-	font-weight: bolder;
+h1, h2 {
+	font-weight: bold;
 }
 
 header, footer {
@@ -76,7 +75,7 @@ footer {
 }
 
 .container {
-	font-size: 14pt;
+	font-size: 1.2em;
 
 }
 
@@ -90,8 +89,13 @@ video::cue {
   font-size: 4rem;
 }
 
+.zoom {
+	transition: scale 0.5s, border 0.5s;
+}
+
 .zoom:hover {
-	box-shadow: 16px 16px #4D5A61;
+	transform: scale(1.01, 1.01);
+	border: 1px solid #4D5A61;
 }
 
 a:hover{

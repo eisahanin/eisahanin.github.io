@@ -10,6 +10,19 @@
 </head>
 <body>
 	<header class="container">
+		<br />
+			<div class="row">
+				 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+				 <script type="text/javascript">
+		function googleTranslateElementInit() {
+		 new google.translate.TranslateElement({pageLanguage: 'de', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+		}
+		</script>
+				<div class="col-lg-2" id="google_translate_element" aria-label="Google Translate Dropdown">
+				</div>
+				<div class="col-lg-10">
+				</div>
+			</div>
 		<div w3-include-html="../header.html"></div>
 	</header>
 	<main>
@@ -68,7 +81,7 @@
 			<h3>Szenario</h3>
 		</div>
 		<div class="row">
-			<img src="../src/buecherei/modelconcept.jpg" alt="Konzeptskizzen für den Spielzeug." class="col-lg-4" />
+			<img data-toggle="modal" data-target="#Concept" src="../src/buecherei/modelconcept.jpg" alt="Konzeptskizzen für den Spielzeug." class="col-lg-4 zoom" />
 			<div class="col-lg-8">
 				<p>Ob zu wissen ob die Frage die Beantwortung wert ist, gestalte ich eine Szene bzw. ein Puppenhaus in dem Barrierefreiheit zuletzt gestellt ist. Für diese Szene habe ich eine Bücherei gewählt, weil es ein öffentlicher Platz ist und daher auch der Regierung ist für ihre Barrierefreiheit verantwortlich. Zusätzlich haben Büchereien viele Nutzten und durch ihre Vielfalt wird verschiedene Antworten bekommen.
 				<br />
@@ -81,6 +94,18 @@
 				</ul>
 			</div>
 		</div>
+		<div class="modal fade" id="Concept">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/buecherei/modelconcept.jpg" alt="Konzeptskizzen für den Spielzeug." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 		<br />
 		<br />
 		<br />
@@ -91,13 +116,66 @@
 			<p>Für dieser UX Research baute ich die folgenden Prototypen nach jede Fragebogenzyklus.</p>
 		</div>
 		<div class="row">
-			<img src="../src/buecherei/radicalmatter.jpeg" alt="Ein Foto von eine bemalte Kartonkiste mit Möbel drinnen." class="col-lg-4" />
-			<img src="../src/buecherei/holz.jpg" alt="Ein Foto von ein Holzprototyp mit Holzmöbeln." class="col-lg-8" />
+			<img data-toggle="modal" data-target="#Proto1" src="../src/buecherei/radicalmatter.jpeg" alt="Ein Foto von eine bemalte Kartonkiste mit Möbel drinnen." class="col-lg-4 zoom" />
+			<img data-toggle="modal" data-target="#Proto2" src="../src/buecherei/holz.jpg" alt="Ein Foto von ein Holzprototyp mit Holzmöbeln." class="col-lg-8 zoom " />
 		</div>
+
+	<div class="modal fade" id="Proto1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="../src/buecherei/radicalmatter.jpeg" alt="Ein Foto von eine bemalte Kartonkiste mit Möbel drinnen." />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="Proto2">
+<div class="modal-dialog modal-xl">
+	<div class="modal-content">
+		<div class="modal-body">
+			<img src="../src/buecherei/holz.jpg" alt="Ein Foto von ein Holzprototyp mit Holzmöbeln." />
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+		</div>
+	</div>
+</div>
+</div>
+
 		<div class="row">
-			<img src="../src/buecherei/graupappe.jpg" alt="Ein Foto von ein Graupappeprototyp mit Holzmöbeln." class="col-lg-8" />
-			<img src="../src/buecherei/braille.jpg" alt="Ein Foto von ein Graupappeprototyp mit vereinfachte Möbeln und Braille." class="col-lg-4"/>
+			<img data-toggle="modal" data-target="#Proto3" src="../src/buecherei/graupappe.jpg" alt="Ein Foto von ein Graupappeprototyp mit Holzmöbeln." class="col-lg-8 zoom" />
+			<img data-toggle="modal" data-target="#Proto4" src="../src/buecherei/braille.jpg" alt="Ein Foto von ein Graupappeprototyp mit vereinfachte Möbeln und Braille." class="col-lg-4 zoom"/>
 		</div>
+
+		<div class="modal fade" id="Proto3">
+	  <div class="modal-dialog modal-xl">
+	    <div class="modal-content">
+	      <div class="modal-body">
+	        <img src="../src/buecherei/graupappe.jpg" alt="Ein Foto von ein Graupappeprototyp mit Holzmöbeln." />
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="Proto4">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="../src/buecherei/braille.jpg" alt="Ein Foto von ein Graupappeprototyp mit vereinfachte Möbeln und Braille." />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 		<div class="row">
 			<p>Teilnehmern hatten die folgenden Fragen beantwortet:</p>
 			<ul>
@@ -142,46 +220,193 @@
 		<div class="col-lg-9"></div>
 		<a class="col-lg-3" href="https://aaa.dieangewandte.at/abschlussarbeiten/hanin-eisa-lets-build-a-library-or-how-accessibility-is-left-behind-in-our-problemsolving-framework" style="float: right; text-decoration:underline;color:black;">Zum Ausstellungsseite</a>
 	</div>
-	<div class="row">
+	<div class="row" div class="row">
 		<div class="col-lg-6">
 			<p>
 				Als Teil dieser Ausstellung, habe ich auch eine Fragebogen gestellt. Die Erste fragt ob man über Barrierefreiheit in einer Bildungssituation bzw. in der Schule oder Universität, bei einem Kurs oder Weiterentwicklung in der Arbeit gelernt hat. Der Zweite fragt ob man von irgendwelche Strukturen die für Barrierefreiheit profitiert oder benutzt hat.
 			</p>
 		</div>
-		<img src="../src/buecherei/frage1.jpg" alt="Eine Tafel mit zwei Ja-Nein Fragen und Stifte." class="col-lg-3"></img>
-		<img src="../src/buecherei/frage2.jpg" alt="Der selben Tafel aber jetzt gefüllt." class="col-lg-3"></img>
+		<img data-toggle="modal" data-target="#Frage1" src="../src/buecherei/frage1.jpg" alt="Eine Tafel mit zwei Ja-Nein Fragen und Stifte." class="col-lg-3 zoom"></img>
+		<img data-toggle="modal" data-target="#Frage2" src="../src/buecherei/frage2.jpg" alt="Der selben Tafel aber jetzt gefüllt." class="col-lg-3 zoom"></img>
 	</div>
+	<div class="modal fade" id="Frage1">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-body">
+				<img src="../src/buecherei/frage1.jpg" alt="Eine Tafel mit zwei Ja-Nein Fragen und Stifte." />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="modal fade" id="Frage2">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="../src/buecherei/frage2.jpg" alt="Der selben Tafel aber jetzt gefüllt." />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 	<div class="row">
 		<h3>Poster Varianten</h3>
 	</div>
 		<div class="row">
-			<img src="../src/buecherei/img.png" alt="Ein schwarz-weiß Zeichnung von ein Kopf mit geschlossenen Augen, die von der Augenbrauen geschnitten ist. Drinnen stehen Möbel, Bücher, eine Lampe, und Pflanze als Raumgestaltung. Außerhalb des Kopfes sind Pflanzen, ein Laptop mit Maus, ein Aufzug, und Wolken, die rum den Kopf sind." class="col-lg-4"> </img>
-			<img src="../src/buecherei/poster.png" style="border: 2px black solid;" alt="Poster Design. Den Zeichnug ist intergriert in einen Viereck und die Ort und Zeit beschreiben." class="col-lg-4"></img>
-			<img src="../src/buecherei/a5 flyer.png" style="border: 2px black solid;" alt="Flyer Design. Die ganze Zeichnung is gezeigt, und sagt nur den Ort und Zeit in der Gebäude." class="col-lg-4"></img>
+			<img data-toggle="modal" data-target="#Poster1" src="../src/buecherei/img.png" alt="Ein schwarz-weiß Zeichnung von ein Kopf mit geschlossenen Augen, die von der Augenbrauen geschnitten ist. Drinnen stehen Möbel, Bücher, eine Lampe, und Pflanze als Raumgestaltung. Außerhalb des Kopfes sind Pflanzen, ein Laptop mit Maus, ein Aufzug, und Wolken, die rum den Kopf sind." class="col-lg-4 zoom"> </img>
+			<img data-toggle="modal" data-target="#Poster2" src="../src/buecherei/poster.png" style="border: 2px black solid;" alt="Poster Design. Den Zeichnug ist intergriert in einen Viereck und die Ort und Zeit beschreiben." class="col-lg-4 zoom"></img>
+			<img data-toggle="modal" data-target="#Poster3" src="../src/buecherei/a5 flyer.png" style="border: 2px black solid;" alt="Flyer Design. Die ganze Zeichnung is gezeigt, und sagt nur den Ort und Zeit in der Gebäude." class="col-lg-4 zoom"></img>
 		</div>
+		<div class="modal fade" id="Poster1">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/buecherei/img.png" alt="Ein schwarz-weiß Zeichnung von ein Kopf mit geschlossenen Augen, die von der Augenbrauen geschnitten ist. Drinnen stehen Möbel, Bücher, eine Lampe, und Pflanze als Raumgestaltung. Außerhalb des Kopfes sind Pflanzen, ein Laptop mit Maus, ein Aufzug, und Wolken, die rum den Kopf sind." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="modal fade" id="Poster2">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	      <div class="modal-body">
+	        <img src="../src/buecherei/poster.png" alt="Poster Design. Den Zeichnug ist intergriert in einen Viereck und die Ort und Zeit beschreiben." />
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="modal fade" id="Poster3">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-body">
+				<img src="../src/buecherei/a5 flyer.png" alt="Flyer Design. Die ganze Zeichnung is gezeigt, und sagt nur den Ort und Zeit in der Gebäude." />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
 		<br />
 		<div class="row">
-			<img src="../src/buecherei/variant3.png" alt="Poster Design Variant 1. Name ist dazu geschrieben" class="col-lg-4" style="border: 2px black solid;"> </img>
-			<img src="../src/buecherei/variant1.png" alt="Poster Design Variant 2. Ort und Name des Thesis sind auf selben Reihen." class="col-lg-4" style="border: 2px black solid;"></img>
-			<img src="../src/buecherei/variant2.png" alt="Poster Design Variant 3. Den Text ist zwischen Kopf und Öffnung, und den Ort ist unter den Kopf." class="col-lg-4" style="border: 2px black solid;"></img>
+			<img data-toggle="modal" data-target="#Poster4" src="../src/buecherei/variant3.png" alt="Poster Design Variant 1. Name ist dazu geschrieben" class="col-lg-4 zoom" style="border: 2px black solid;"> </img>
+			<img data-toggle="modal" data-target="#Poster5" src="../src/buecherei/variant1.png" alt="Poster Design Variant 2. Ort und Name des Thesis sind auf selben Reihen." class="col-lg-4 zoom" style="border: 2px black solid;"></img>
+			<img data-toggle="modal" data-target="#Poster6" src="../src/buecherei/variant2.png" alt="Poster Design Variant 3. Den Text ist zwischen Kopf und Öffnung, und den Ort ist unter den Kopf." class="col-lg-4 zoom" style="border: 2px black solid;"></img>
 		</div>
+		<div class="modal fade" id="Poster4">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/buecherei/variant3.png" alt="Poster Design Variant 1. Name ist dazu geschrieben" />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="modal fade" id="Poster5">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	      <div class="modal-body">
+	        <img src="../src/buecherei/variant1.png" alt="Poster Design Variant 2. Ort und Name des Thesis sind auf selben Reihen." />
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="modal fade" id="Poster6">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-body">
+				<img src="../src/buecherei/variant2.png" alt="Poster Design Variant 3. Den Text ist zwischen Kopf und Öffnung, und den Ort ist unter den Kopf." />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
 		<br />
 		<div class="row">
 			<p>Die Poster und Flyers werden mit Braillesticker aufgehängt.</p>
 		</div>
 		<div class="row">
-			<img src="../src/buecherei/poster4.jpg" alt="Den Poster mit orangen Braillesticker." class="col-lg-4"></img>
-			<img src="../src/buecherei/poster3.jpg" alt="Ein Close-up der orangen Braillestickers." class="col-lg-4"></img>
-			<img src="../src/buecherei/flyer 1.jpg" alt="Den kleine Flyer mit orangen Braillesticker. Sie ist mit dem Poster des Abschlussklasses aufgehängt." class="col-lg-4"></img>
+			<img data-toggle="modal" data-target="#Poster7" src="../src/buecherei/poster4.jpg" alt="Den Poster mit orangen Braillesticker." class="col-lg-4 zoom"></img>
+			<img data-toggle="modal" data-target="#Poster8" src="../src/buecherei/poster3.jpg" alt="Ein Close-up der orangen Braillestickers." class="col-lg-4 zoom"></img>
+			<img data-toggle="modal" data-target="#Poster9" src="../src/buecherei/flyer 1.jpg" alt="Den kleine Flyer mit orangen Braillesticker. Sie ist mit dem Poster des Abschlussklasses aufgehängt." class="col-lg-4 zoom"></img>
 		</div>
+
+		<div class="modal fade" id="Poster7">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/buecherei/poster4.jpg" alt="Den Poster mit orangen Braillesticker." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="modal fade" id="Poster8">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	      <div class="modal-body">
+	        <img src="../src/buecherei/poster3.jpg" alt="Ein Close-up der orangen Braillestickers." />
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="modal fade" id="Poster9">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-body">
+				<img src="../src/buecherei/flyer 1.jpg" alt="Den kleine Flyer mit orangen Braillesticker. Sie ist mit dem Poster des Abschlussklasses aufgehängt." />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
 		<br />
 		<div class="row">
 			<div class="col-lg-6">
 				<h3>Abschlussprojekt Text</h3>
 				<p>Als Teil des Abschlussprojektes gibt es ein künstlerische Komponent und ein Text-Komponent. Als Text-Komponent hatte ich mein These drucken lassen. Es wurde auch im Projektausstellung da sein, als ein Teil von meiner Arbeit in dem ich auch absichtlich über den Präsentation meiner These und ihre Barrierefreiheit denken. Dazu band ich auch Bücher die in Leichte Sprache mit Braille auf Englisch und Deutsch waren.</p>
 			</div>
-			<img src="../src/buecherei/cover.jpg" alt="Ein weißes Buch mit eine Zeichnung." class="col-lg-6"></img>
+			<img data-toggle="modal" data-target="#cover" src="../src/buecherei/cover.jpg" alt="Ein weißes Buch mit eine Zeichnung." class="col-lg-6 zoom"></img>
 		</div>
+		<div class="modal fade" id="cover">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/buecherei/cover.jpg" alt="Ein weißes Buch mit eine Zeichnung." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 		<br />
 		<br />
 		<br />

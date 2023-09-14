@@ -19,7 +19,7 @@
 		 new google.translate.TranslateElement({pageLanguage: 'de', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
 		}
 		</script>
-				<div class="col-lg-2" id="google_translate_element">
+				<div class="col-lg-2" id="google_translate_element" aria-label="Google Translate Dropdown">
 				</div>
 				<div class="col-lg-10">
 				</div>
@@ -35,12 +35,14 @@
 				<div class="col-lg-12">
 					<h3>Project Overview</h3>
 					<br />
-					<h4>1 Week / Branding und UI / Solo Projekt</h4>
+					<h4>2 Wochen / Branding und UI / Solo Projekt</h4>
 					<img src="../src/resonanz/LogoBranding.png" alt="Mission Statement mit Logo Branding, Benutzung, und texturierten Hintergründe."/>
 					<p>Resonanz ist ein Music Production Firma, die für KünstlerInnen produziert. Ihre Services besteht aus Recording, Mixing und Hilfe mit Publishing für Klienten, Radios und Social Media.</p>
 				</div>
 			</div>
 		</section>
+		<br />
+		<br />
 		<section aria-label="Project Development">
 		<div class="row">
 			<div class="col-lg-6">
@@ -52,8 +54,21 @@
 				</ul>
 			</div>
 			<div class="col-lg-6">
-				<img src="../src/resonanz/logo and sign design.png" alt="Logo Design. Es zeigen die verschieden Formen von 'Klang'." />
+				<img class="zoom" data-toggle="modal" data-target="#resologo" src="../src/resonanz/logo and sign design.png" alt="Logo Design. Es zeigen die verschieden Formen von 'Klang'." />
 			</div>
+		</div>
+		<br />
+		<div class="modal fade" id="resologo">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/resonanz/logo and sign design.png" alt="Logo Design. Es zeigen die verschieden Formen von 'Klang'." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
 		</div>
 		<div class="row">
 			<img src="../src/resonanz/corporate identity re.jpg" alt="Corporate Identity. Resonanz Branding auf T-Shirts, Vinyl CDs, Briefe, Visitenkarte, und Website." class="col-lg-12" />
@@ -67,6 +82,7 @@
 			<img src="../src/resonanz/resonanz_mobil.jpg" alt="Website Design auf Mobile." class="col-lg-12"/>
 		</div>
 		<br />
+		<br />
 		<div class="row">
 			<a alt="Link führt zum Desktop seite." href="https://xd.adobe.com/view/3e0b4624-db23-4297-84f3-6d53f03fb259-6b58/?fullscreen" target=”_blank” class="col-lg-6" style="color: black; text-decoration: underline;">
 					to Desktop View
@@ -77,6 +93,8 @@
 		</div>
 	</section>
 	</main>
+		<br />
+		<br />
 		<br />
 	<footer class="container-fluid">
 		<div w3-include-html="../footer.html"></div>

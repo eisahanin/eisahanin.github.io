@@ -19,7 +19,7 @@
 		 new google.translate.TranslateElement({pageLanguage: 'de', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
 		}
 		</script>
-				<div class="col-lg-2" id="google_translate_element">
+				<div class="col-lg-2" id="google_translate_element" aria-label="Google Translate Dropdown">
 				</div>
 				<div class="col-lg-10">
 				</div>
@@ -58,9 +58,44 @@
 			</div>
 		</div>
 		<div class="row">
-			<img src="../src/ludum/concept.jpg" alt="Microbiota Panic Konzeptskizzen. Sie zeigen den Darm, Essen, und den Hauptfigur" class="col-lg-4" />
-			<img src="../src/ludum/showcase.png" alt="Microbiota Panic Konzeptskizzen. Sie zeigen Text und Bilder." class="col-lg-4" />
-			<img src="../src/ludum/screen.png" alt="Microbiota Panic Videospiel. Sie zeigen den Darm, Essen, und den Hauptfigur, mit Lebenspunkte." class="col-lg-4"/>
+			<img data-toggle="modal" data-target="#panic1" src="../src/ludum/concept.jpg" alt="Microbiota Panic Konzeptskizzen. Sie zeigen den Darm, Essen, und den Hauptfigur" class="col-lg-4 zoom" />
+			<img data-toggle="modal" data-target="#panic2" src="../src/ludum/showcase.png" alt="Microbiota Panic Konzeptskizzen. Sie zeigen Text und Bilder." class="col-lg-4 zoom" />
+			<img data-toggle="modal" data-target="#panic3" src="../src/ludum/screen.png" alt="Microbiota Panic Videospiel. Sie zeigen den Darm, Essen, und den Hauptfigur, mit Lebenspunkte." class="col-lg-4 zoom"/>
+		</div>
+		<div class="modal fade" id="panic1">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/ludum/concept.jpg" alt="Microbiota Panic Konzeptskizzen. Sie zeigen den Darm, Essen, und den Hauptfigur" />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="modal fade" id="panic2">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/ludum/showcase.png" alt="Microbiota Panic Konzeptskizzen. Sie zeigen Text und Bilder." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="modal fade" id="panic3">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/ludum/screen.png" alt="Microbiota Panic Videospiel. Sie zeigen den Darm, Essen, und den Hauptfigur, mit Lebenspunkte." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
 		</div>
 	</section>
 </main>

@@ -19,7 +19,7 @@
 			 new google.translate.TranslateElement({pageLanguage: 'de', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
 			}
 			</script>
-					<div class="col-lg-2" id="google_translate_element">
+					<div class="col-lg-2" id="google_translate_element" aria-label="Google Translate Dropdown">
 					</div>
 					<div class="col-lg-10">
 					</div>
@@ -84,7 +84,7 @@ Forum on the Contribution of Quality Infrastructure to the Achievement of the SD
 <section aria-label="TICAD7">
 			<div class="row" id="ticad7">
 				<div target=”_blank” class="col-lg-6">
-					<img src="../src/unido/ticad7.jpg" alt="TICAD7. Ein Showcase von den Logo auf Papiere, Bücher, und Stände." />
+					<img data-toggle="modal" data-target="#ticad1" class="zoom" src="../src/unido/ticad7.jpg" alt="TICAD7. Ein Showcase von den Logo auf Papiere, Bücher, und Stände." />
 				</div>
 				<div target=”_blank” class="col-lg-6">
 					<h3>TICAD7</h3>
@@ -97,9 +97,37 @@ Forum on the Contribution of Quality Infrastructure to the Achievement of the SD
 					</a>
 				</div>
 			</div>
+			<br />
 				<div class="row" id="ticad7">
-					<img src="../src/unido/brand_TICAD.png" class="col-lg-12" alt="Branding von TICAD7. Es zeigt ein Roten Kreis mit der Kontinent von Afrika in weiß drinnen. Rund dieses Kreis sind Streifen mit verschiedenen Länge und Farben bzw. Blau, Gelb und Orange. Dieses Motif ist auf Mobile, Dokument Verlag, und Stand zu sehen."/>
+					<img data-toggle="modal" data-target="#ticad2" src="../src/unido/brand_TICAD.png" class="col-lg-12 zoom" alt="Branding von TICAD7. Es zeigt ein Roten Kreis mit der Kontinent von Afrika in weiß drinnen. Rund dieses Kreis sind Streifen mit verschiedenen Länge und Farben bzw. Blau, Gelb und Orange. Dieses Motif ist auf Mobile, Dokument Verlag, und Stand zu sehen."/>
 				</div>
+
+				<div class="modal fade" id="ticad1">
+				<div class="modal-dialog modal-xl">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../src/unido/ticad7.jpg" alt="TICAD7. Ein Showcase von den Logo auf Papiere, Bücher, und Stände." />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div class="modal fade" id="ticad2">
+				<div class="modal-dialog modal-xl">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../src/unido/brand_TICAD.png" alt="Branding von TICAD7. Es zeigt ein Roten Kreis mit der Kontinent von Afrika in weiß drinnen. Rund dieses Kreis sind Streifen mit verschiedenen Länge und Farben bzw. Blau, Gelb und Orange. Dieses Motif ist auf Mobile, Dokument Verlag, und Stand zu sehen." />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				</div>
+
 		</section>
 		<section aria-label="FGI2019">
 				<br />
@@ -114,13 +142,52 @@ Forum on the Contribution of Quality Infrastructure to the Achievement of the SD
 						</a>
 					</div>
 					<div class="col-lg-6">
-						<img src="../src/unido/FGI201902.jpg" alt="Gewähltes Design für 2019 Forum for Globalization and Industrialization. Dies zeigen Wellen die Grün und dunkles Lila sind. Die Linien schneiden in Wellen durch." style="border: grey solid 4px;" />
+						<img class="zoom" data-toggle="modal" data-target="#fgi1" src="../src/unido/FGI201902.jpg" alt="Gewähltes Design für 2019 Forum for Globalization and Industrialization. Dies zeigen Wellen die Grün und dunkles Lila sind. Die Linien schneiden in Wellen durch." style="border: grey solid 4px;" />
 					</div>
 				</div>
 				<br />
 				<div class="row" id="fgi2019">
-						<img src="../src/unido/fgi 1.jpg" alt="Design 2. Dies zeigt eine uniforme Wellenschleife aus Orange und dunkles Lila." class="col-lg-6"  />
-						<img src="../src/unido/fgi 2.jpg" alt="Design 3. Dies zeigt der selben Muster wie das gewähltes Design, aber in in Orange und dunkles Lila." class="col-lg-6"  />
+						<img data-toggle="modal" data-target="#fgi2" src="../src/unido/fgi 1.jpg" alt="Design 2. Dies zeigt eine uniforme Wellenschleife aus Orange und dunkles Lila." class="col-lg-6 zoom"  />
+						<img data-toggle="modal" data-target="#fgi3" src="../src/unido/fgi 2.jpg" alt="Design 3. Dies zeigt der selben Muster wie das gewähltes Design, aber in in Orange und dunkles Lila." class="col-lg-6 zoom"  />
+				</div>
+
+				<div class="modal fade" id="fgi1">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../src/unido/FGI201902.jpg" alt="Gewähltes Design für 2019 Forum for Globalization and Industrialization. Dies zeigen Wellen die Grün und dunkles Lila sind. Die Linien schneiden in Wellen durch." />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div class="modal fade" id="fgi2">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../src/unido/fgi 1.jpg" alt="Design 2. Dies zeigt eine uniforme Wellenschleife aus Orange und dunkles Lila." />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div class="modal fade" id="fgi3">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../src/unido/fgi 2.jpg" alt="Design 3. Dies zeigt der selben Muster wie das gewähltes Design, aber in in Orange und dunkles Lila." />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
 				</div>
 </section>
 				<br />
@@ -136,18 +203,84 @@ Forum on the Contribution of Quality Infrastructure to the Achievement of the SD
 						</ul>
 						<a href="https://www.unido.org/researchers/industrial-policy-advice-research-and-statistics" target=”_blank” class="button" style="color: black; text-decoration: underline;">Zum Newsletter Archiv</a>
 					</div>
-					<img src="../src/unido/cover.jpg" class="col-lg-4" alt="Cover für den Politics, Research, Statistics Newsletter" />
-					<img src="../src/unido/pages.jpg" class="col-lg-4" alt="Politics, Research, Statistics Newsletter auf ein Tablet" />
+					<img data-toggle="modal" data-target="#PRS1" src="../src/unido/cover.jpg" class="col-lg-4 zoom" alt="Cover für den Politics, Research, Statistics Newsletter" />
+					<img data-toggle="modal" data-target="#PRS2" src="../src/unido/pages.jpg" class="col-lg-4 zoom" alt="Politics, Research, Statistics Newsletter auf ein Tablet" />
 				</div>
 			</div>
 
 				<br />
 				<div class="row" id="PRS">
-					<img src="../src/unido/Print_cover.png" class="col-lg-4" alt="Cover für den Politics, Research, Statistics Newsletter" />
-					<img src="../src/unido/p4.png" class="col-lg-4" alt="Seite 2 des Verlags. Politics, Research, Statistics Newsletter" />
-					<img src="../src/unido/Print_p6.png" class="col-lg-4" alt="Seite 7 des Verlags. Cover für den Politics, Research, Statistics Newsletter" />
+					<img data-toggle="modal" data-target="#PRS3" src="../src/unido/Print_cover.png" class="col-lg-4 zoom" alt="Cover für den Politics, Research, Statistics Newsletter" />
+					<img data-toggle="modal" data-target="#PRS4" src="../src/unido/p4.png" class="col-lg-4 zoom" alt="Seite 2 des Verlags. Politics, Research, Statistics Newsletter" />
+					<img data-toggle="modal" data-target="#PRS5" src="../src/unido/Print_p6.png" class="col-lg-4 zoom" alt="Seite 7 des Verlags. Cover für den Politics, Research, Statistics Newsletter" />
 				</div>
 				<br />
+
+				<div class="modal fade" id="PRS1">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../src/unido/cover.jpg" alt="Cover für den Politics, Research, Statistics Newsletter" />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div class="modal fade" id="PRS2">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../src/unido/pages.jpg" alt="Politics, Research, Statistics Newsletter auf ein Tablet" />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div class="modal fade" id="PRS3">
+				<div class="modal-dialog modal-xl">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../src/unido/Print_cover.png" alt="Cover für den Politics, Research, Statistics Newsletter" />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div class="modal fade" id="PRS4">
+				<div class="modal-dialog modal-xl">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../src/unido/p4.png" alt="Seite 2 des Verlags. Politics, Research, Statistics Newsletter" />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div class="modal fade" id="PRS5">
+				<div class="modal-dialog modal-xl">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../src/unido/Print_p6.png" alt="Seite 7 des Verlags. Cover für den Politics, Research, Statistics Newsletter" />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				</div>
+
 			</section>
 			<section aria-label="UNIDO 18th General Conference">
 				<div class="row" id="unidogc">
@@ -163,9 +296,35 @@ Forum on the Contribution of Quality Infrastructure to the Achievement of the SD
 						</a>
 					</div>
 					<div class="col-lg-6">
-						<img src="../src/unido/2019gc.png" alt="UNIDO 18th General Conference. Die Hauptschema benutzen arabischen Geometrie und die Nationalblume United Emirates."  class="col-lg-12"/>
-						<img src="../src/unido/2019gcelements.png" alt="Verschiedenen Themen des UNIDO 18th General Conference werden in geometrische Blüten gezeigt."class="col-lg-12" />
+						<img data-toggle="modal" data-target="#unido1" src="../src/unido/2019gc.png" alt="UNIDO 18th General Conference. Die Hauptschema benutzen arabischen Geometrie und die Nationalblume United Emirates." class="col-lg-12 zoom"/>
+						<img data-toggle="modal" data-target="#unido2" src="../src/unido/2019gcelements.png" alt="Verschiedenen Themen des UNIDO 18th General Conference werden in geometrische Blüten gezeigt." class="col-lg-12 zoom" />
 					</div>
+				</div>
+
+				<div class="modal fade" id="unido1">
+				<div class="modal-dialog modal-xl">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../src/unido/2019gc.png" alt="UNIDO 18th General Conference. Die Hauptschema benutzen arabischen Geometrie und die Nationalblume United Emirates." />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div class="modal fade" id="unido2">
+				<div class="modal-dialog modal-xl">
+					<div class="modal-content">
+						<div class="modal-body">
+							<img src="../src/unido/2019gcelements.png" alt="Verschiedenen Themen des UNIDO 18th General Conference werden in geometrische Blüten gezeigt." />
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
 				</div>
 			</section>
 		</main>

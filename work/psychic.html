@@ -19,7 +19,7 @@
 		 new google.translate.TranslateElement({pageLanguage: 'de', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
 		}
 		</script>
-				<div class="col-lg-2" id="google_translate_element">
+				<div class="col-lg-2" id="google_translate_element" aria-label="Google Translate Dropdown">
 				</div>
 				<div class="col-lg-10">
 				</div>
@@ -47,7 +47,7 @@
 		</section>
 	<section class="container" aria-label="Development">
 		<div class="row">
-			<img src="../src/psychic/concepts.jpg" alt="Konzeptskizzen des Ratgebers" class="col-lg-6" />
+			<img data-toggle="modal" data-target="#psychic1" src="../src/psychic/concepts.jpg" alt="Konzeptskizzen des Ratgebers" class="col-lg-6 zoom" />
 			<div class="col-lg-6">
 				<h2>Development</h2>
 					<ul>
@@ -57,12 +57,61 @@
 					</ul>
 			</div>
 		</div>
+		<div class="modal fade" id="psychic1">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/psychic/concepts.jpg" alt="Konzeptskizzen des Ratgebers" />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
 <br />
 		<div class="row">
-			<img src="../src/psychic/guide1.jpg" alt="Vordereseite. Die Seite aus eine Collage von Zeitungsseite, Pflanzen und Texturen. 'A Survival Guide for Psychics' (Ein Überlebensratgeber für Hellseherinnen) ist geschrieben." class="col-lg-3" />
-			<img src="../src/psychic/guide2.jpg" alt="Innenseite der Zines mit verschiedene Tips." class="col-lg-6" />
-			<img src="../src/psychic/guide3.jpg" alt="Hintereseite. Die Seite ist wie der Hintereseite aber ohne Text. Stattdessen ist ein Stadtbild in der Mitte, und unter ist eine Zeichnung einer Auge." class="col-lg-3" />
+			<img data-toggle="modal" data-target="#psychic2" src="../src/psychic/guide1.jpg" alt="Vordereseite. Die Seite aus eine Collage von Zeitungsseite, Pflanzen und Texturen. 'A Survival Guide for Psychics' (Ein Überlebensratgeber für Hellseherinnen) ist geschrieben." class="col-lg-3 zoom" />
+			<img data-toggle="modal" data-target="#psychic3" src="../src/psychic/guide2.jpg" alt="Innenseite der Zines mit verschiedene Tips." class="col-lg-6 zoom" />
+			<img data-toggle="modal" data-target="#psychic4" src="../src/psychic/guide3.jpg" alt="Hintereseite. Die Seite ist wie der Hintereseite aber ohne Text. Stattdessen ist ein Stadtbild in der Mitte, und unter ist eine Zeichnung einer Auge." class="col-lg-3 zoom" />
 		</div>
+		<div class="modal fade" id="psychic2">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/psychic/guide1.jpg" alt="Vordereseite. Die Seite aus eine Collage von Zeitungsseite, Pflanzen und Texturen. 'A Survival Guide for Psychics' (Ein Überlebensratgeber für Hellseherinnen) ist geschrieben." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="modal fade" id="psychic3">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/psychic/guide2.jpg" alt="Innenseite der Zines mit verschiedene Tips." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="modal fade" id="psychic4">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/psychic/guide3.jpg" alt="Hintereseite. Die Seite ist wie der Hintereseite aber ohne Text. Stattdessen ist ein Stadtbild in der Mitte, und unter ist eine Zeichnung einer Auge." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<br />
 		<br />
 		<div class="row">
 			<h1>Gedruckte Zine</h1>

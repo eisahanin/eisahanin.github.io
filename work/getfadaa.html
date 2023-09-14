@@ -21,7 +21,7 @@
 		 new google.translate.TranslateElement({pageLanguage: 'de', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
 		}
 		</script>
-				<div class="col-lg-2" id="google_translate_element">
+				<div class="col-lg-2" id="google_translate_element" aria-label="Google Translate Dropdown">
 				</div>
 				<div class="col-lg-10">
 				</div>
@@ -63,8 +63,32 @@
 					</ul>
 		</div>
 		<div class="row">
-			<img src="../src/getfadaa/branding concepts.png" alt="GetFadaa Branding Konzepten." class="col-lg-4" />
-			<img src="../src/getfadaa/meet team.png" alt="GetFadaa Team Vorstellung Instagram Posts." class="col-lg-4" />
+			<img data-toggle="modal" data-target="#fadaacon1" src="../src/getfadaa/branding concepts.png" alt="GetFadaa Branding Konzepten." class="col-lg-4 zoom" />
+			<img data-toggle="modal" data-target="#fadaacon2" src="../src/getfadaa/meet team.png" alt="GetFadaa Team Vorstellung Instagram Posts." class="col-lg-4 zoom" />
+		</div>
+		<div class="modal fade" id="fadaacon1">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/getfadaa/branding concepts.png" alt="GetFadaa Branding Konzepten." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="modal fade" id="fadaacon2">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/getfadaa/meet team.png" alt="GetFadaa Team Vorstellung Instagram Posts." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
 		</div>
 		<br />
 		<div class="row">
@@ -77,31 +101,71 @@
 				<p class="col-lg-4">
 					Ein Hybrid Kollaboration mit <a href="https://www.shubbak.co.uk/" target="_blank" style="color: black; text-decoration: underline;">Shubbak</a>, die auch auf Twitch.tv gestreamt. Den Rosa von Shubbak ist in den Gelb des GetFadaa intergriert.
 				</p>
-				<img src="../src/getfadaa/1x1 insta.png"  alt="GetFadaa Shubbak Insta Post." class="col-lg-4" />
-				<img src="../src/getfadaa/twitch.png"  alt="GetFadaa Shubbak Twitch Icon." class="col-lg-4" />
+				<img data-toggle="modal" data-target="#shubbak1" src="../src/getfadaa/1x1 insta.png"  alt="GetFadaa Shubbak Insta Post." class="col-lg-4 zoom" />
+				<img data-toggle="modal" data-target="#shubbak2" src="../src/getfadaa/twitch.png"  alt="GetFadaa Shubbak Twitch Icon." class="col-lg-4 zoom" />
+		</div>
+		<div class="modal fade" id="shubbak1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/getfadaa/1x1 insta.png"  alt="GetFadaa Shubbak Insta Post." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="modal fade" id="shubbak2">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/getfadaa/twitch.png"  alt="GetFadaa Shubbak Twitch Icon." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
 		</div>
 		<br />
 		<div class="row">
 			<video controls playsinline class="col-lg-4">
 				<source src="../src/getfadaa/animation intro.mp4"  alt="GetFadaa Animation für den Intro von Shubbakfest." type="video/mp4">
 			</video>
-			<img src="../src/getfadaa/world_closed_small_no_box.png"  alt="When the World Closed Keyvisual. Es ist eine Zeichnung von der Welt mit ein kleinen Haus oben." class="col-lg-4" />
-			<img src="../src/getfadaa/world_closed_image.png" alt="When the World Closed Keyvisual mit rosa Pin." class="col-lg-4" />
+			<img data-toggle="modal" data-target="#shubbak3" src="../src/getfadaa/world_closed_small_no_box.png"  alt="When the World Closed Keyvisual. Es ist eine Zeichnung von der Welt mit ein kleinen Haus oben." class="col-lg-4 zoom" />
+			<img data-toggle="modal" data-target="#shubbak4" src="../src/getfadaa/world_closed_image.png" alt="When the World Closed Keyvisual mit rosa Pin." class="col-lg-4 zoom" />
+		</div>
+		<div class="modal fade" id="shubbak3">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/getfadaa/world_closed_small_no_box.png"  alt="When the World Closed Keyvisual. Es ist eine Zeichnung von der Welt mit ein kleinen Haus oben." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="modal fade" id="shubbak4">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/getfadaa/world_closed_image.png" alt="When the World Closed Keyvisual mit rosa Pin." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
 		</div>
 	</section>
 	<br />
 </main>
-<div class="container">
-	<div class="row">
-	  <div class="col-lg-2">
-	    <a href="../index.html" aria-label="Züruck zum Homepage" style="background-color:black; color:white; font-size: 1em;">
-	      Züruck
-	    </a>
-	  </div>
-	  <div class="col-lg-10">
-	  </div>
-	</div>
-</div>
+<br />
+<br />
+<br />
 		<footer class="container-fluid">
 			<div w3-include-html="../footer.html"></div>
 		</footer>
