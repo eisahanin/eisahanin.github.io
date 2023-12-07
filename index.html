@@ -77,7 +77,28 @@
 		</div>
 	</main>
 	<style>
+	@media screen and (max-width:420px) {
 		.works-shown {
+				height: 220px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				border-radius:12px;
+				border: solid 8px white;
+			}
+	}
+	@media screen and (min-width:421px) and (max-width:900px) {
+		.works-shown {
+				height: 400px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				border-radius:12px;
+				border: solid 8px white;
+			}
+		}
+@media screen and (min-width:901px) {
+	.works-shown {
 			height: 320px;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -85,6 +106,7 @@
 			border-radius:12px;
 			border: solid 8px white;
 		}
+	}
 	</style>
 <br />
 		<footer class="container-fluid">
