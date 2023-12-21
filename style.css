@@ -32,13 +32,6 @@ footer {
 	font-size: 0.75em;
 }
 
-#nav .button{
- color: black; text-decoration: underline;
- padding: 10px;
- margin:auto;
- width: 80%;
-}
-
 .logo {
 	transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s;
 	background-color: #FFF;
@@ -99,23 +92,28 @@ video::cue {
 }
 
 a:hover{
-	box-shadow: 16px 16px #4D5A61;
-	transform: translate(-8px,-8px);
 	border: 1px solid #4D5A61;
-	border-radius: 8px;
 }
 
 .button {
-	padding: 12px;
-	background-color: #FFF;
+	color: black;
+	padding: 2px;
+	margin:auto;
+	width: 80%;
+	border-radius: 128px;
+}
+
+.button:hover{
+	border: 1px solid #FFF;
+	background-color: #4D5A61;
+	color: white;
 }
 
 a{
-	color: black;
 	text-decoration: underline;
 	padding: 12px;
 	text-align: center;
-	transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s, border 0.5s;
+	transition: background-color 0.5s, border 0.5s;
 	font-weight: bolder;
 	background-size: 100%;
 	border-radius: 8px;
