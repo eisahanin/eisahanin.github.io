@@ -101,12 +101,13 @@ a:hover{
 	margin:auto;
 	width: 80%;
 	border-radius: 128px;
+	background-color: white;
 }
 
 .button:hover{
-	border: 1px solid #FFF;
 	background-color: #4D5A61;
 	color: white;
+	border-radius: 128px;
 }
 
 a{
