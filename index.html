@@ -9,7 +9,7 @@
 		<title>Hanin Eisa's Portfolio</title>
 </head>
 <body>
-<header class="container">
+<header class="container-fluid" style="margin:auto; width:90%;">
 	<br />
 		<div class="row">
 			 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
@@ -26,21 +26,22 @@
 	<nav>
 		<div class="row" id="nav">
 			<a class="col-lg-2 logo" href="../index.html">
-				<img src="src/logo.png" aria-label="Back to Homepage" alt="Hanin Eisa Logo." />
+				<img src="src/logo.png" style="width: 70%; height: auto;" aria-label="Back to Homepage" alt="Hanin Eisa Logo." />
 			</a>
 		 	<div class="col-lg-4">
 		 	</div>
-			<a href="https://hanineisa.carrd.co" class="col-lg-2 button" >Illustration</a>
-			<a href="../EISA Hanin - CV.pdf" class="col-lg-2 button">Download CV</a>
-			<a href="mailto:eisahanin@gmail.com" class="col-lg-2 button" id="contact">Contact</a>
+			<a href="https://hanineisa.carrd.co" class="col-lg-1 button" >Illustration</a>
+			<a href="../EISA Hanin - CV.pdf" class="col-lg-1 button">Download CV</a>
+			<a href="mailto:eisahanin@gmail.com" class="col-lg-1 button" id="contact">Contact</a>
 		</div>
 		<style>
 		#nav .button{
 			color: black;
-			padding: 2px;
+			padding: 2px 5px;
 			margin:auto;
 			width: 80%;
 			border-radius: 128px;
+			font-size: 0.78em;
 			}
 		#nav .button:hover{
 			background-color: #4D5A61;
@@ -50,7 +51,7 @@
 			background-color: black;
 			color: white;
 			border-radius: 128px;
-			padding: 2px;
+			padding: 2px 5px;
 			margin:auto;
 			}
 		#nav #contact:hover{
@@ -63,34 +64,35 @@
 </nav>
 </header>
 
-	<main class="container" aria-label="Portfolio Works">
+	<main class="container-fluid" aria-label="Portfolio Works" style="margin:auto; width:90%;">
 		<div class="row">
-			<a class="col-lg-6 works-shown" href="work/buecherei.html" aria-label="Bauen Wir eine Buecherei. Product Design" alt="Bauen Wir eine Buecherei. Ein Poster mit ein schwarz-weiß Zeichnung von ein Kopf mit geschlossenen Augen, die von der Augenbrauen geschnitten ist. Drinnen stehen Möbel, Bücher, eine Lampe, und Pflanze als Raumgestaltung. Außerhalb des Kopfes sind Pflanzen, ein Laptop mit Maus, ein Aufzug, und Wolken, die rum den Kopf sind. Mit dem Text ist orangen Braillestickers darauf geklebt." style="background-image: url(src/buecherei_icon.jpg); background-size: cover;" >
+			<a class="col-lg-4 works-shown" href="work/buecherei.html" aria-label="Bauen Wir eine Buecherei. UX Research und Product Design" alt="Bauen Wir eine Buecherei. Ein Poster mit ein schwarz-weiß Zeichnung von ein Kopf mit geschlossenen Augen, die von der Augenbrauen geschnitten ist. Drinnen stehen Möbel, Bücher, eine Lampe, und Pflanze als Raumgestaltung. Außerhalb des Kopfes sind Pflanzen, ein Laptop mit Maus, ein Aufzug, und Wolken, die rum den Kopf sind. Mit dem Text ist orangen Braillestickers darauf geklebt." style="background-image: url(src/buecherei_icon.jpg); background-size: cover;" >
 			</a>
-			<a href="work/meshi.html" aria-label="Meshi the Mesh Monster. Product Design Projekt" alt="Meshi. Foto von Meshi, ein Thermoplast mit Papier rumdrum, befestigt mit ein Gummiband, und Goggly-Eyes für Augen." class="col-lg-6 works-shown" style="background-image: url(src/meshi_icon.jpg); background-size: cover;">
+			<a href="work/meshi.html" class="col-lg-4 works-shown" style="background-image: url(src/meshi_icon.jpg); background-size: cover;" aria-label="Meshi the Mesh Monster. Product Design Projekt" alt="Meshi. Foto von Meshi, ein Thermoplast mit Papier rumdrum, befestigt mit ein Gummiband, und Goggly-Eyes für Augen.">
+			</a>
+			<a href="work/scienced.html" aria-label="SciencED. Illustrationen und Animationen" class="col-lg-4 works-shown" alt="SciencED." style="background-image: url(src/scienced.svg); background-size: 75%; background-repeat: no-repeat;">
 			</a>
 		</div>
 		<div class="row">
-			<a href="work/roolong.html" alt="RooLong. UI und Branding Projekt" aria-label="RooLong. UI Design und Branding." class="col-lg-6 works-shown"  style="background-image: url(src/roolong/roolong_mobile.jpg);">
+			<a href="work/resonanz.html" alt="Resonanz. Website Design auf Mobile." aria-label="Resonanz. UI Design und Branding" class="col-lg-4 works-shown" style="background-image: url(src/resonanz/resonanz_mobil.jpg);" >
 			</a>
-			<a href="work/resonanz.html" alt="Resonanz. Website Design auf Mobile." aria-label="Resonanz. UI Design und Branding" class="col-lg-6 works-shown" style="background-image: url(src/resonanz/resonanz_mobil.jpg);" >
-			</a>
-
-		</div>
-		<div class="row">
-			<a class="col-lg-6 works-shown" href="work/pinion.html" aria-label="Pinion. UI and UX Design" style="background-image: url(src/pinion.png);" >
-			</a>
-			<a href="work/ludum.html" aria-label="Microbiota Panic. UI Design and Branding" alt="Microbiota Panic. Ein Ludum Dare Game Jam Computerspiel." class="col-lg-6 works-shown" style="background-image: url(src/ludum_thumb.png);">
-			</a>
-
-		</div>
-		<div class="row">
 			<a href="work/getfadaa.html" aria-label="GetFadaa. Branding" class="col-lg-4 works-shown" alt="GetFadaa. When the World Closed Keyvisual. Es ist eine Zeichnung von der Welt mit ein kleinen Haus oben." style="background-image: url(src/getfadaa/world_closed_small_no_box.png);">
 			</a>
+
+			<a class="col-lg-4 works-shown" href="work/pinion.html" aria-label="Pinion. UI and UX Design" style="background-image: url(src/pinion.png);" >
+			</a>
+		</div>
+		<div class="row">
 			<a href="work/psychic.html" class="col-lg-4 works-shown" aria-label="Eine Überlebensratgeber für Hellseherinnen. Print Design" alt="Eine Überlebensratgeber für Hellseherinnen" style="background-image: url(src/psychic/guide1.jpg);">
 			</a>
 			<a class="col-lg-4 works-shown" href="work/unido.html" aria-label="Arbeit beim UNIDO. Print Design und Branding" style="background-image: url(src/unido/cover.jpg);" >
 			</a>
+			<a href="work/ludum.html" aria-label="Microbiota Panic. UI Design and Branding" alt="Microbiota Panic. Ein Ludum Dare Game Jam Computerspiel." class="col-lg-4 works-shown" style="background-image: url(src/ludum_thumb.png);">
+			</a>
+		</div>
+		<div class="row">
+			<!--<a href="work/roolong.html" alt="RooLong. UI und Branding Projekt" aria-label="RooLong. UI Design und Branding." class="col-lg-4 works-shown"  style="background-image: url(src/roolong/roolong_mobile.jpg);">
+			</a>-->
 		</div>
 	</main>
 	<style>
@@ -129,7 +131,7 @@
 		<footer class="container-fluid">
 			<div class="row">
 			  <p class="col-lg-12 text-center">
-			    2018 - 2023 (c) Hanin Eisa. Content, Trademarks and other registered Logos belong to their respective owners. eisahanin@gmail.com
+			    2018 - 2024 (c) Hanin Eisa. Content, Trademarks and other registered Logos belong to their respective owners. eisahanin@gmail.com
 			  </p>
 			  <img src="src/end.png" alt="Eine Zeichnung von eine schwarze Katze und eine weisse Vogel." style="width:200px; height:auto;" />
 			</div>

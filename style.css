@@ -119,3 +119,19 @@ a{
 	background-size: 100%;
 	border-radius: 8px;
 }
+
+.ext {
+	background-color: black;
+	color: white;
+	border-radius: 128px;
+	padding: 2px 5px;
+	margin:auto;
+	border-style: none;
+}
+
+.ext:hover{
+	background-color: #3E3E3E;
+	width: 80%;
+	color: white;
+	border-style: none;
+}
