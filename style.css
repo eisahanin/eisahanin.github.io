@@ -98,7 +98,12 @@ a{
 	font-weight: bolder;
 	background-size: 100%;
 	border-radius: 8px;
-	transition: border 0.5s;
+	transition: border 0.33s;
+
+}
+
+a:hover {
+	border: 2px solid #4D5A61;
 }
 
 .button {
