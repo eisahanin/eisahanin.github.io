@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<link href="../style.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="../bootstrap-4.4.1/css/bootstrap.min.css">
+	<meta charset="utf-8">
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+	<title>Hanin Eisa's Portfolio - Daily Lucky Number</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="//vjs.zencdn.net/8.3.0/video-js.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<header class="container-fluid" style="margin:auto; width:90%;">
+		<br />
+			<div class="row">
+				 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+				 <script type="text/javascript">
+		function googleTranslateElementInit() {
+		 new google.translate.TranslateElement({pageLanguage: 'de', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+		}
+		</script>
+				<div class="col-lg-2" id="google_translate_element" aria-label="Google Translate Dropdown">
+				</div>
+				<div class="col-lg-10">
+				</div>
+			</div>
+		<div w3-include-html="../header.html"></div>
+	</header>
+<main>
+		<section class="container" title="Daily Lucky Number Generator" aria-label="Project Overview">
+			<div class="row">
+				<h1 class="col-lg-12 text-center">Daily Lucky Number Generator</h1>
+			</div>
+		</section>
+		<br />
+		<section class="container" aria-label="Project Overview">
+			<div class="col-lg-12">
+			<h2>Project Overview</h2>
+			<br />
+			<h3>1 Week / Website / Solo Projekt</h3>
+				<p>
+					Ein simple Glücksnummergenerator Webseiter, die nach einem Besuch sich erinnert und nach Mitternacht erneuert.
+				</p>
+			</div>
+		</div>
+		</section>
+	<section class="container" aria-label="Development">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Development</h2>
+					<ul>
+						<li>Der Äesthetik dieses Websites besteht aus surreale und technische Elemente.</li>
+						<li>Dazu wollte ich für dieser Website PHP und Javascript für visuellen Effekte benutzen.</li>
+					</ul>
+			</div>
+		</div>
+<br />
+		<div class="row">
+			<div class="col-lg-4">
+				<h3>Backend</h3>
+				<p>Für dieses Webseite benötigt ein Weg den Glücksnummer zu generieren und dazu auch sie zu erinnern. Für dies benutzte ich Cookies. Der Website generiert eine Nummer zwischen 0 und 100, speichert dieses Nummer in eine Cookie. Bei der nächsten Besuch, der Nummer wird nochmal rausgespuckt vor des Ablaufsdatum. Ich lass den Benutzer auch den Cookie löschen.</p>
+			</div>
+			<div class="col-lg-8">
+				<img data-toggle="modal" data-target="#lucky1" class="zoom" src="../src/lucky/luckyloop.png" alt="Ein Diagram, die der Basis des Backends illustriet. Der Benutzer generiert eine Nummer, wird in ein Cookie gespeichert, und dann gedruckt. Nach dem Ablaufsdatum or nach Wunsch der Benutzer wird der Cookie gelöscht und wird zum Start weitergeleitet." />
+			</div>
+		</div>
+<br/>
+
+<div class="modal fade" id="lucky1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<img src="../src/lucky/luckyloop.png" alt="Ein Diagram, die der Basis des Backends illustriet. Der Benutzer generiert eine Nummer, wird in ein Cookie gespeichert, und dann gedruckt. Nach dem Ablaufsdatum or nach Wunsch der Benutzer wird der Cookie gelöscht und wird zum Start weitergeleitet." />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="row">
+		<div class="col-lg-5">
+			<img data-toggle="modal" data-target="#lucky2" class="zoom" src="../src/lucky/php functions.jpg" alt="Die PHP Funktionen des Webseites" />
+		</div>
+		<div class="col-lg-7">
+			<img data-toggle="modal" data-target="#lucky3" class="zoom" src="../src/lucky/index php.jpg" alt="Der PHP Index Datei, die des Backends ausspricht." />
+		</div>
+	</div>
+
+<div class="modal fade" id="lucky2">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<img src="../src/lucky/php functions.jpg" alt="Die PHP Funktionen des Webseites" />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="lucky3">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<img src="../src/lucky/index php.jpg" alt="Der PHP Index Datei, die des Backends ausspricht." />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<br/>
+
+	<div class="row">
+		<div class="col-lg-12">
+			<h3>Frontend</h3>
+			<p>Für die Aesthetik dieses Webseites möchte ich ein surreale und technische Elemente hinzufügen. Für die technische Elemente habe ich drei Flux Farbverläufe und ein Rauschen generiert.</p>
+			<br />
+			<img data-toggle="modal" data-target="#lucky4" class="zoom" src="../src/lucky/flux img.png" alt="Drei SVGs mit verschiedene Farbverläufe und ein Rauschen Textur." />
+		</div>
+	</div>
+<br/>
+	<div class="modal fade" id="lucky4">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/lucky/flux img.png" alt="Drei SVGs mit verschiedene Farbverläufe und ein Rauschen Textur." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+<br/>
+
+<div class="row">
+	<div class="col-lg-6">
+		<p>Und ein letztes Teil diese Hintergrund öffnete ich Adobe After Effects und generiert ich ein Fraktal Rauschen von Graustufen.</p>
+		<br />
+	</div>
+	<div class="col-lg-6">
+		<video class="video-js" data-setup='{}' controls playsinline width="560">
+			<source src="../src/lucky/bg.mp4" type="video/mp4">
+			<p>Generiertes Fractal Rauschen.</p>
+		</video>
+	</div>
+</div>
+<br/>
+
+<div class="row">
+	<div class="col-lg-12">
+		<p>Ein Teil des surreale Äesthetik ist die zuzätzliche Illustrationen und Comic Sans als Schriftart. Es soll zeigen, dass dieses Website am Ende ein Scherz und aufrichtig ist. Javascript ist dazu benutzt um ein Teil des Webseite zu verstecken und mit Scrollen wurde sie sehen, und den Ladeseite zu machen. Die folgenden Animation ist während die Ladung des Seites gesehen.</p>
+	</div>
+</div>
+<br/>
+
+		<div class="row">
+
+			<img class="col-lg-4" src="../src/lucky/starting.gif" alt="Ein Animation von Hellseherin die den Besucher einlädt." />
+			<img class="col-lg-4" src="../src/lucky/loading.gif" alt="Ein Animation des Hellseherin, die in ihre Kristalball einseht." />
+			<img data-toggle="modal" data-target="#lucky5" class="col-lg-4 zoom" src="../src/lucky/javascript.jpg" alt="Javascript die im Website verknüpft wird." />
+		</div>
+<br/>
+	<div class="modal fade" id="lucky5">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="../src/lucky/javascript.jpg" alt="Javascript die im Website verknüpft wird." />
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<br />
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Endprodukt</h2>
+				<h3>Desktop</h3>
+				<p>Mit alle Elemente zusammen seht die Seite so aus:</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<video class="video-js" data-setup='{}' controls playsinline width="1080" muted loop style="margin-left: auto; margin-right: auto; display: block; border: 8px solid white;">
+					<source src="../src/lucky/Home 1.mp4" type="video/mp4">
+					<p>Index Seite.</p>
+				</video>
+		</div>
+	</div>
+<br />
+<div class="row">
+	<div class="col-lg-12">
+		<video class="video-js" data-setup='{}' controls playsinline width="1080" muted loop style="margin-left: auto; margin-right: auto; display: block; border: 8px solid white;">
+			<source src="../src/lucky/web.mp4" type="video/mp4">
+			<p>Video der Webseite.</p>
+		</video>
+	</div>
+</div>
+<br />
+<br />
+<div class="row">
+	<div class="col-lg-12">
+		<h3>Mobile</h3>
+	</div>
+</div>
+
+<br />
+<div class="row">
+	<img src="../src/lucky/mobile1.gif" alt="Mobile Website" class="col-lg-6" />
+	<video class="col-lg-6 video-js" data-setup='{}' controls playsinline width="360" muted loop style="margin-left: auto; margin-right: auto; display: block; border: 8px solid white;">
+			<source src="../src/lucky/mobile.mp4" type="video/mp4">
+		<p>Video der Webseite Mobile.</p>
+	</video>
+</div>
+<br />
+
+<br />
+<br />
+<br />
+<div class="row">
+	<div class="col-lg-12">
+		<h2>Was Ich gelernt habe</h2>
+		<ul>
+			<li>Besonders schwierig war es, herauszufinden, welche Programmiersprachen besser geeignet wären. Da ich darauf bestand, PHP und JS für dieses Projekt zu verwenden (das ehrlich gesagt auch nur HTML/CSS/JS hätte sein können), habe ich das Projekt grundlegend anders strukturiert.</li>
+			<li>Ich erkannte sofort, wie komplex einige meiner Ideen waren, und entschied mich daher für etwas, von dem ich ein besseres Verständnis hatte. Da ich einen eher spielerischen Hintergrund habe, habe ich auch erkannt, dass ich andere Development Kits oder Engines für diesen Zweck hätte verwenden können. Eine App/Spiel-ähnliche Idee in eine Website-Idee zu übersetzen, war etwas, woran ich nicht gedacht hatte, und diese Erfahrung zu machen, war großartig für mich.</li>
+			<li>Nun, ich verstehe definitiv mehr von PHP als vorher, aber ich weiß auch viel mehr von dem, was ich noch nicht wusste.</li>
+		</ul>
+	</div>
+</div>
+<br />
+<br />
+
+		<!--<div class="modal fade" id="lucky6">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-body">
+						<img src="../src/lucky/screenshot_1.jpg" alt="Index Seite."  />
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="lucky7">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-body">
+						<img src="../src/lucky/screenshot_2.jpg" alt="Nummer generiert."  />
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="lucky8">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-body">
+						<img src="../src/lucky/screenshot_3.jpg" alt="Index mit Nummer generiert." />
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="lucky9">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-body">
+						<img src="../src/lucky/screenshot_4.jpg" alt="Anfrage zu eine neue Nummer." />
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>-->
+
+	</section>
+</main>
+<br />
+		<footer class="container-fluid">
+			<div w3-include-html="../footer.html"></div>
+		</footer>
+
+		<script>w3.includeHTML();</script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
