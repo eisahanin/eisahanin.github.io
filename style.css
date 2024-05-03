@@ -3,8 +3,8 @@
 html {
 	color: #4D5A61;
 	background: url(bg.png);
-	padding-top:64px;
-	background-size: 64px;
+	padding-top:32px;
+	background-size: 48px;
 	background-repeat: repeat-x;
 }
 
