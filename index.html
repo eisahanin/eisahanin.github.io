@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
 	<link href="style.css" type="text/css" rel="stylesheet">
-	<link rel="stylesheet" href="bootstrap-4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-5.3.3/css/bootstrap.min.css">
 	<script src="https://www.w3schools.com/lib/w3.js"></script>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,23 +25,35 @@
 		</div>
 	<nav>
 		<div class="row" id="nav">
-			<a class="col-lg-2 logo" href="../index.html">
-				<img src="src/logo.png" style="width: 70%; height: auto;" aria-label="Back to Homepage" alt="Hanin Eisa Logo." />
-			</a>
-			<div class="col-lg-4">
-		 </div>
-		 <a href="../about.html" class="col-lg-1 button">About Me</a>
-		 <a href="https://hanineisa.carrd.co" class="col-lg-1 button" >Illustration</a>
-		 <a href="mailto:eisahanin@gmail.com" class="col-lg-1 button" id="contact">Contact</a>
+			<div class="col-lg-2">
+				<a class="logo" href="../index.html">
+					<img src="src/logo.png" style="width: 70%; height: auto;" aria-label="Back to Homepage" alt="Hanin Eisa Logo." />
+				</a>
+		 	</div>
+			<div class="col-lg-6">
+		 	</div>
+			<div class="col-lg-4" style="margin-top:auto;">
+				<div class="row">
+					<div class="col-lg-4">
+		 				<a href="../about.html" class="button">About Me</a>
+					</div>
+					<div class="col-lg-4">
+		 				<a href="https://hanineisa.carrd.co" class="button">Illustration</a>
+					</div>
+					<div class="col-lg-4">
+		 				<a href="mailto:eisahanin@gmail.com" class="button" id="contact">Contact</a>
+					</div>
+				</div>
+			</div>
 		</div>
 		<style>
 		#nav .button{
 			color: black;
 			padding: 2px 5px;
-			margin:auto;
-			width: 80%;
 			border-radius: 128px;
 			font-size: 0.78em;
+			float: right;
+			display: block;
 			}
 		#nav .button:hover{
 			background-color: #4D5A61;
@@ -52,12 +64,24 @@
 			color: white;
 			border-radius: 128px;
 			padding: 2px 5px;
-			margin:auto;
+			display: block;
+			float: right;
 			}
 		#nav #contact:hover{
 			background-color: #3E3E3E;
-			width: 80%;
 			color: white;
+			}
+
+			@media screen and (max-width:420px) {
+					#nav .button, #nav #contact {
+					float:none;
+				}
+			}
+
+			@media screen and (min-width:421px) and (max-width:900px) {
+					#nav .button, #nav #contact {
+					float:none;
+				}
 			}
 		</style>
 		<br />
@@ -77,7 +101,7 @@
 		<div class="row">
 			<a href="work/resonanz.html" alt="Resonanz. Website Design auf Mobile." aria-label="Resonanz. UI Design und Branding" class="col-lg-4 works-shown" style="background-image: url(src/resonanz/businesscards2.jpg)" >
 			</a>
-			<a href="work/psychic.html" class="col-lg-4 works-shown" aria-label="Eine Überlebensratgeber für Hellseherinnen. Print Design" alt="Eine Überlebensratgeber für Hellseherinnen" style="background-image: url(src/psychic/book3.jpg);">
+			<a href="work/psychic.html" class="col-lg-4 works-shown" aria-label="Monster Guide Zines. Print Design" alt="Überlebensratgeber für Monsters" style="background-image: url(src/psychic/zine1.jpg);">
 			</a>
 			<a href="work/scienced.html" aria-label="SciencED. Illustrationen und Animationen" class="col-lg-4 works-shown" alt="SciencED." style="background-image: url(src/scienced.svg); background-size: 75%; background-repeat: no-repeat;">
 			</a>
@@ -133,9 +157,29 @@
 			<div class="row">
 				<div class="col-lg-10">
 			 	</div>
-				<a href="https://linkedin.com/in/hanineisa" class="col-lg-1 button" style="font-size: 1.5em; width: 80%; margin:auto;">LinkedIn</a>
-				<a href="mailto:eisahanin@gmail.com" class="col-lg-1 button ext" style="font-size: 1.5em; width: 80%; margin:auto;" id="contact">Contact</a>
+				<div class="col-lg-1">
+					<a href="https://linkedin.com/in/hanineisa" class="button" style="font-size: 1.5em;">LinkedIn</a>
+				</div>
+				<div class="col-lg-1">
+					<a href="mailto:eisahanin@gmail.com" class="button ext" style="font-size: 1.5em;" id="contact">Contact</a>
+				</div>
 			</div>
+			<style>
+				@media screen and (max-width:420px) {
+						footer .button {
+						float: none;
+						text-align: center;
+						display: block;
+					}
+				}
+				@media screen and (min-width:421px) and (max-width:900px) {
+						footer .button {
+						float: none;
+						text-align: center;
+						display: block;
+					}
+				}
+			</style>
 	</br>
 		<div class="container-fluid">
 			<div class="row">

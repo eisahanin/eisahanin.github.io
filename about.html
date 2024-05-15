@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
 	<link href="style.css" type="text/css" rel="stylesheet">
-	<link rel="stylesheet" href="bootstrap-4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-5.3.3/css/bootstrap.min.css">
 	<script src="https://www.w3schools.com/lib/w3.js"></script>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,42 +25,52 @@
 		</div>
 	<nav>
 		<div class="row" id="nav">
-			<a class="col-lg-2 logo" href="../index.html">
-				<img src="src/logo.png" style="width: 70%; height: auto;" aria-label="Back to Homepage" alt="Hanin Eisa Logo." />
-			</a>
-			<div class="col-lg-4">
-		 </div>
-		 <a href="../about.html" class="col-lg-1 button">About Me</a>
-		 <a href="https://hanineisa.carrd.co" class="col-lg-1 button" >Illustration</a>
-		 <a href="mailto:eisahanin@gmail.com" class="col-lg-1 button" id="contact">Contact</a>
-		</div>
-		<style>
-		#nav .button{
-			color: black;
-			padding: 2px 5px;
-			margin:auto;
-			width: 80%;
-			border-radius: 128px;
-			font-size: 0.78em;
-			}
-		#nav .button:hover{
-			background-color: #4D5A61;
-			color: white;
-			}
-		#nav #contact{
-			background-color: black;
-			color: white;
-			border-radius: 128px;
-			padding: 2px 5px;
-			margin:auto;
-			}
-		#nav #contact:hover{
-			background-color: #3E3E3E;
-			width: 80%;
-			color: white;
-			}
-		</style>
-		<br />
+				<div class="col-lg-2">
+					<a class="logo" href="../index.html">
+						<img src="src/logo.png" style="width: 70%; height: auto;" aria-label="Back to Homepage" alt="Hanin Eisa Logo." />
+					</a>
+			 	</div>
+				<div class="col-lg-6">
+			 	</div>
+				<div class="col-lg-4" style="margin-top:auto;">
+					<div class="row">
+						<div class="col-lg-4">
+			 				<a href="../about.html" class="button">About Me</a>
+						</div>
+						<div class="col-lg-4">
+			 				<a href="https://hanineisa.carrd.co" class="button">Illustration</a>
+						</div>
+						<div class="col-lg-4">
+			 				<a href="mailto:eisahanin@gmail.com" class="button" id="contact">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<style>
+			#nav .button{
+				color: black;
+				padding: 2px 5px;
+				border-radius: 128px;
+				font-size: 0.78em;
+				float: right;
+				}
+			#nav .button:hover{
+				background-color: #4D5A61;
+				color: white;
+				}
+			#nav #contact{
+				background-color: black;
+				color: white;
+				border-radius: 128px;
+				padding: 2px 5px;
+				float: right;
+				}
+			#nav #contact:hover{
+				background-color: #3E3E3E;
+				color: white;
+				}
+			</style>
+			<br />
 </nav>
 </header>
 
@@ -89,8 +99,12 @@
 			<div class="row">
 				<div class="col-lg-10">
 			 	</div>
-				<a href="https://linkedin.com/in/hanineisa" class="col-lg-1 button" style="font-size: 1.5em; width: 80%; margin:auto;">LinkedIn</a>
-				<a href="mailto:eisahanin@gmail.com" class="col-lg-1 button ext" style="font-size: 1.5em; width: 80%; margin:auto;" id="contact">Contact</a>
+				<div class="col-lg-1">
+				<a href="https://linkedin.com/in/hanineisa" class="button" style="font-size: 1.5em; width: 80%; margin:auto;">LinkedIn</a>
+				</div>
+				<div class="col-lg-1">
+				<a href="mailto:eisahanin@gmail.com" class="button ext" style="font-size: 1.5em; width: 80%; margin:auto;" id="contact">Contact</a>
+				</div>
 			</div>
 	</br>
 		<div class="container-fluid">

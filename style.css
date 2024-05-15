@@ -30,6 +30,7 @@ header {
 
 footer {
 	font-size: 0.75em;
+	display: block;
 }
 
 .logo {
@@ -51,11 +52,6 @@ footer {
 	width: 100%;
 }
 
-@media screen and (max-width: 600px;) {
-	.logo img {
-		width: 75%;
-	}
-}
 .logo img:hover {
 	animation: shake 0.2s;
 	animation-iteration-count: 3;
@@ -70,6 +66,14 @@ footer {
 .container {
 	font-size: 1.2em;
 
+}
+
+.learn {
+	width: 80%;
+	padding: 36px;
+	border: 1px solid black;
+	border-radius: 36px;
+	margin: auto;
 }
 
 img, video * {
@@ -99,6 +103,7 @@ a{
 	background-size: 100%;
 	border-radius: 8px;
 	transition: border 0.33s;
+	border: 2px solid #FFF;
 
 }
 
@@ -108,7 +113,7 @@ a:hover {
 
 .button {
 	color: black;
-	padding: 2px 5px;
+	padding: 6px 18px;
 	margin:auto;
 	width: 80%;
 	border-radius: 128px;
@@ -125,7 +130,7 @@ a:hover {
 	background-color: black;
 	color: white;
 	border-radius: 128px;
-	padding: 2px 5px;
+	padding: 6px 18px;
 	margin:auto;
 	border-style: none;
 }
