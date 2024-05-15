@@ -25,52 +25,66 @@
 		</div>
 	<nav>
 		<div class="row" id="nav">
-				<div class="col-lg-2">
-					<a class="logo" href="../index.html">
-						<img src="src/logo.png" style="width: 70%; height: auto;" aria-label="Back to Homepage" alt="Hanin Eisa Logo." />
-					</a>
-			 	</div>
-				<div class="col-lg-6">
-			 	</div>
-				<div class="col-lg-4" style="margin-top:auto;">
-					<div class="row">
-						<div class="col-lg-4">
-			 				<a href="../about.html" class="button">About Me</a>
-						</div>
-						<div class="col-lg-4">
-			 				<a href="https://hanineisa.carrd.co" class="button">Illustration</a>
-						</div>
-						<div class="col-lg-4">
-			 				<a href="mailto:eisahanin@gmail.com" class="button" id="contact">Contact</a>
-						</div>
+			<div class="col-lg-2">
+				<a class="logo" href="../index.html">
+					<img src="src/logo.png" style="width: 70%; height: auto;" aria-label="Back to Homepage" alt="Hanin Eisa Logo." />
+				</a>
+		 	</div>
+			<div class="col-lg-6">
+		 	</div>
+			<div class="col-lg-4" style="margin-top:auto;">
+				<div class="row">
+					<div class="col-lg-4">
+		 				<a href="../about.html" class="button">About Me</a>
+					</div>
+					<div class="col-lg-4">
+		 				<a href="https://hanineisa.carrd.co" class="button">Illustration</a>
+					</div>
+					<div class="col-lg-4">
+		 				<a href="mailto:eisahanin@gmail.com" class="button" id="contact">Contact</a>
 					</div>
 				</div>
 			</div>
-			<style>
-			#nav .button{
-				color: black;
-				padding: 2px 5px;
-				border-radius: 128px;
-				font-size: 0.78em;
-				float: right;
+		</div>
+		<style>
+		#nav .button{
+			color: black;
+			padding: 2px 5px;
+			border-radius: 128px;
+			font-size: 0.78em;
+			float: right;
+			display: block;
+			}
+		#nav .button:hover{
+			background-color: #4D5A61;
+			color: white;
+			}
+		#nav #contact{
+			background-color: black;
+			color: white;
+			border-radius: 128px;
+			padding: 2px 5px;
+			display: block;
+			float: right;
+			}
+		#nav #contact:hover{
+			background-color: #3E3E3E;
+			color: white;
+			}
+
+			@media screen and (max-width:420px) {
+					#nav .button, #nav #contact {
+					float:none;
 				}
-			#nav .button:hover{
-				background-color: #4D5A61;
-				color: white;
+			}
+
+			@media screen and (min-width:421px) and (max-width:900px) {
+					#nav .button, #nav #contact {
+					float:none;
 				}
-			#nav #contact{
-				background-color: black;
-				color: white;
-				border-radius: 128px;
-				padding: 2px 5px;
-				float: right;
-				}
-			#nav #contact:hover{
-				background-color: #3E3E3E;
-				color: white;
-				}
-			</style>
-			<br />
+			}
+		</style>
+		<br />
 </nav>
 </header>
 
@@ -100,12 +114,28 @@
 				<div class="col-lg-10">
 			 	</div>
 				<div class="col-lg-1">
-				<a href="https://linkedin.com/in/hanineisa" class="button" style="font-size: 1.5em; width: 80%; margin:auto;">LinkedIn</a>
+					<a href="https://linkedin.com/in/hanineisa" class="button" style="font-size: 1.5em;">LinkedIn</a>
 				</div>
 				<div class="col-lg-1">
-				<a href="mailto:eisahanin@gmail.com" class="button ext" style="font-size: 1.5em; width: 80%; margin:auto;" id="contact">Contact</a>
+					<a href="mailto:eisahanin@gmail.com" class="button ext" style="font-size: 1.5em;" id="contact">Contact</a>
 				</div>
 			</div>
+			<style>
+				@media screen and (max-width:420px) {
+						footer .button {
+						float: none;
+						text-align: center;
+						display: block;
+					}
+				}
+				@media screen and (min-width:421px) and (max-width:900px) {
+						footer .button {
+						float: none;
+						text-align: center;
+						display: block;
+					}
+				}
+			</style>
 	</br>
 		<div class="container-fluid">
 			<div class="row">
