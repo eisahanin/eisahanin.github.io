@@ -8,9 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Hanin Eisa's Portfolio</title>
 </head>
+
 <body>
-<header class="container-fluid" style="margin:auto; width:90%;">
-	<br />
+	<div class="wrap">
+		<img class="windowborder" src="border.png" />
+	</div>
+</br>
+</br>
+
+	<div class="all">
+	</br>
+
+	<header class="container" style="margin:auto; width:100%;">
 		<div class="row">
 			 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 			 <script type="text/javascript">
@@ -18,73 +27,33 @@
 	 new google.translate.TranslateElement({pageLanguage: 'de', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
 	}
 	</script>
-			<div class="col-lg-2" id="google_translate_element" aria-label="Google Translate Dropdown">
+			<div class="col-lg-4" id="google_translate_element" aria-label="Google Translate Dropdown">
 			</div>
-			<div class="col-lg-10">
+			<div class="col-lg-8">
 			</div>
 		</div>
+	<br />
+
 	<nav>
-		<div class="row" id="nav">
+		<div class="row">
 			<div class="col-lg-2">
 				<a class="logo" href="../index.html">
-					<img src="src/logo.png" style="width: 70%; height: auto;" aria-label="Back to Homepage" alt="Hanin Eisa Logo." />
+					<img src="src/logo.png" style="width: 100%; height: auto;" aria-label="Back to Homepage" alt="Hanin Eisa Logo." />
 				</a>
-		 	</div>
-			<div class="col-lg-6">
-		 	</div>
-			<div class="col-lg-4" style="margin-top:auto;">
-				<div class="row">
-					<div class="col-lg-6">
-						<a href="../about.html" class="button">About Me</a>
-					</div>
-					<div class="col-lg-6">
-						<a href="mailto:eisahanin@gmail.com" class="button" id="contact">Contact</a>
-					</div>
-				</div>
+		 		</div>
+				<div class="col-lg-6">
+		 		</div>
+				<a href="../about.html" alt="Link to About Me" class="about col-lg-2">
+					<img src="buttons_about.png" />
+				</a>
+				<a href="mailto:eisahanin@gmail.com" alt="Contact. This will open the Email App!" class="contact col-lg-2">
+					<img src="buttons_contact.png" />
+				</a>
 			</div>
-		</div>
-		<style>
-		#nav .button{
-			color: black;
-			padding: 2px 5px;
-			border-radius: 128px;
-			font-size: 0.78em;
-			float: right;
-			display: block;
-			}
-		#nav .button:hover{
-			background-color: #4D5A61;
-			color: white;
-			}
-		#nav #contact{
-			background-color: black;
-			color: white;
-			border-radius: 128px;
-			padding: 2px 5px;
-			display: block;
-			float: right;
-			}
-		#nav #contact:hover{
-			background-color: #3E3E3E;
-			color: white;
-			}
 
-			@media screen and (max-width:420px) {
-					#nav .button, #nav #contact {
-					float:none;
-				}
-			}
-
-			@media screen and (min-width:421px) and (max-width:900px) {
-					#nav .button, #nav #contact {
-					float:none;
-				}
-			}
-		</style>
 		<br />
 </nav>
 </header>
-
 	<main class="container" aria-label="Portfolio Works" style="margin:auto; width:90%;">
 		<div class="row">
 			<a class="col-lg-4 works-shown" href="work/buecherei.html" aria-label="Bauen Wir eine Buecherei. UX Research und Product Design" alt="Bauen Wir eine Buecherei. Ein Poster mit ein schwarz-weiß Zeichnung von ein Kopf mit geschlossenen Augen, die von der Augenbrauen geschnitten ist. Drinnen stehen Möbel, Bücher, eine Lampe, und Pflanze als Raumgestaltung. Außerhalb des Kopfes sind Pflanzen, ein Laptop mit Maus, ein Aufzug, und Wolken, die rum den Kopf sind. Mit dem Text ist orangen Braillestickers darauf geklebt." style="background-image: url(src/buecherei_icon.jpg); background-size: cover;" >
@@ -102,90 +71,80 @@
 			<a href="work/scienced.html" aria-label="SciencEd" class="col-lg-4 works-shown" alt="SciencEd." style="background-image: url(src/scienced.svg); background-size: 50%;">
 			</a>
 		</div>
-	
+
 		<!--<div class="row">
 			<a href="work/psychic.html" class="col-lg-6 works-shown" aria-label="Monster Guide Zines. Print Design" alt="Überlebensratgeber für Monsters" style="background-image: url(src/psychic/zine1.jpg);">
 			</a>
 			<a href="work/lucky.html" aria-label="Daily Lucky Number" class="col-lg-6 works-shown" alt="Tägliches Glücksnummergenerator. Website Design" style="background-image: url(src/lucky/site1.gif);">
 			</a>
 		</div>-->
+
 	</main>
+
 	<style>
+
+	.works-shown {
+			border: 4px solid #black;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+	}
+
+.works-shown:hover {
+	border: 4px solid #grey;
+}
+
 	@media screen and (max-width:420px) {
 		.works-shown {
 				height: 220px;
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: center;
-				border-radius:12px;
-				border: solid 8px white;
 			}
 	}
 	@media screen and (min-width:421px) and (max-width:900px) {
 		.works-shown {
 				height: 400px;
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: center;
-				border-radius:12px;
-				border: solid 8px white;
 			}
 		}
-@media screen and (min-width:901px) {
+	@media screen and (min-width:901px) {
 	.works-shown {
 			height: 360px;
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: center;
-			border-radius:12px;
-			border: solid 8px white;
 		}
 	}
 	</style>
-<br />
-		<footer class="container-fluid" style="margin:auto; width:90%;">
+
+	<footer class="container">
+		<br />
+		<br />
+		<div class="row">
+			<div class="col-lg-8"></div>
+			<a href="https://linkedin.com/in/hanineisa" class="linkedin col-lg-2" alt="LinkedIn">
+				<img src="buttons_linkedin.png" />
+			</a>
+			<a href="mailto:eisahanin@gmail.com" alt="Contact. This will open the Email App!" class="contact col-lg-2">
+				<img src="buttons_contact.png" />
+			</a>
+		</div>
+		</br>
+			<div class="row">
+				<p class="col-lg-12 text-center copy">
+					2018 - 2024 (c) Hanin Eisa. Content, Trademarks and other registered Logos belong to their respective owners. eisahanin@gmail.com
+				</p>
+				<img src="src/end.png" alt="Eine Zeichnung von eine schwarze Katze und eine weisse Vogel." style="width:200px; height:auto;" />
+			</div>
 			<div class="row">
 				<div class="col-lg-10">
-			 	</div>
-				<div class="col-lg-1">
-					<a href="https://linkedin.com/in/hanineisa" class="button" style="font-size: 1.5em;">LinkedIn</a>
 				</div>
-				<div class="col-lg-1">
-					<a href="mailto:eisahanin@gmail.com" class="button ext" style="font-size: 1.5em;" id="contact">Contact</a>
+				<div class="col-lg-2 stapely">
+					<p>Sieht aus, als wären Sie bis zum Ende der Seite vorgedrungen. Möchten Sie wieder <a href="#">nach oben gehen?</a></p>
+					<img style="float: right;" src="stapely.png" alt="Stapely. Ein Stapler mit Augen." />
 				</div>
 			</div>
-			<style>
-				@media screen and (max-width:420px) {
-						footer .button {
-						float: none;
-						text-align: center;
-						display: block;
-					}
-				}
-				@media screen and (min-width:421px) and (max-width:900px) {
-						footer .button {
-						float: none;
-						text-align: center;
-						display: block;
-					}
-				}
-			</style>
-	</br>
-		<div class="container-fluid">
-			<div class="row">
-			  <p class="col-lg-12 text-center">
-			    2018 - 2024 (c) Hanin Eisa. Content, Trademarks and other registered Logos belong to their respective owners. eisahanin@gmail.com
-			  </p>
-			  <img src="src/end.png" alt="Eine Zeichnung von eine schwarze Katze und eine weisse Vogel." style="width:200px; height:auto;" />
-			</div>
-			<div style="background-image: url(bg.png); background-size: 48px; background-repeat: repeat; height: 32px;">
-			</div>
-		</div>
+		</br>
 		</footer>
 
 		<script>w3.includeHTML();</script>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</div>
 	</body>
 </html>

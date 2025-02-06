@@ -1,15 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;700;900&display=swap');
 
+*{
+	font-family: 'Lexend', Montserrat, sans-serif;
+}
+
 html {
-	color: #4D5A61;
-	background: url(bg.png);
-	padding-top:32px;
-	background-size: 48px;
-	background-repeat: repeat-x;
+
+}
+
+.wrap {
+	height: 64px !important;
+	width: 100%;
+}
+
+.windowborder {
+	z-index: 5;
+	object-fit: cover;
+	float: right;
+}
+
+.copy {
+	font-size: 0.55em;
+}
+
+.all {
+	margin: auto;
+	width: 80%;
+	height: 80%;
+	top: 64px;
+}
+
+@media screen and (max-width:900px) {
+	.all {
+		width: 100%;
+		height: auto;
+	}
+
+	.logo img {
+		width: 50%;
+		height: auto;
+	}
+
+	.windowborder {
+		width: auto !important;
+		height: 64px;
+	}
+
+}
+
+body {
+	background: white url('bg.png') repeat;
+	background-size: 10%;
+	cursor: url('cursor.png'), auto;
+}
+
+.stapely {
+	z-index: 5;
+	background: #fef2da;
+	border: 1px solid black;
+	font-size: .8em;
 }
 
 div {
-	font-family: 'Lexend', Montserrat, sans-serif;
 	text-align: left;
 	margin: auto;
 }
@@ -18,31 +70,10 @@ h1, h2 {
 	font-weight: bold;
 }
 
-header, footer {
+main, header, footer {
 	margin: auto;
 	text-align: center;
-	width: 512px;
-}
-
-header {
-	font-size: 1.5em;
-}
-
-footer {
-	font-size: 0.75em;
-	display: block;
-}
-
-.logo {
-	transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s;
-	background-color: #FFF;
-}
-
-.logo:hover {
-	box-shadow: 0px 0px white;
-	transform: translate(0px,0px);
-	background-color: #FFF;
-	border: 1px hidden #FFF;
+	background-color: white;
 }
 
 .logo img {
@@ -52,31 +83,18 @@ footer {
 	width: 100%;
 }
 
-.logo img:hover {
-	animation: shake 0.2s;
-	animation-iteration-count: 3;
-}
-@keyframes shake {
-  0% { transform: rotate(0deg); }
-  33% { transform: rotate(-1deg); }
-  66% { transform: rotate(1deg); }
-  100% { transform: rotate(0deg); }
-}
-
 .container {
 	font-size: 1.2em;
-
 }
 
 .learn {
 	width: 80%;
 	padding: 36px;
 	border: 1px solid black;
-	border-radius: 36px;
 	margin: auto;
 }
 
-img, video * {
+img:not(.windowborder), video * {
 	max-width: 100%;
 	height: auto;
 	margin:auto;
@@ -86,58 +104,19 @@ video::cue {
   font-size: 4rem;
 }
 
-.zoom {
-	transition: scale 0.5s, border 0.5s;
-}
-
 .zoom:hover {
-	transform: scale(1.01, 1.01);
+	transform: scale(1.005, 1.005);
 	border: 1px solid #4D5A61;
 }
 
-a{
+a {
 	text-decoration: underline;
 	padding: 12px;
 	text-align: center;
 	font-weight: bolder;
 	background-size: 100%;
-	border-radius: 8px;
-	transition: border 0.33s;
-	border: 2px solid #FFF;
-
 }
 
 a:hover {
-	border: 2px solid #4D5A61;
-}
-
-.button {
-	color: black;
-	padding: 6px 18px;
-	margin:auto;
-	width: 80%;
-	border-radius: 128px;
-	background-color: white;
-}
-
-.button:hover{
-	background-color: #4D5A61;
-	color: white;
-	border-radius: 128px;
-}
-
-.ext {
-	background-color: black;
-	color: white;
-	border-radius: 128px;
-	padding: 6px 18px;
-	margin:auto;
-	border-style: none;
-}
-
-.ext:hover{
-	background-color: #3E3E3E;
-	width: 80%;
-	color: white;
-	border-style: none;
+	border: 0px hidden #FFF;
 }
