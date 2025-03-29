@@ -9,6 +9,10 @@ html {
 }
 
 .wrap {
+	height: 16px !important;
+}
+
+.wrap img {
 	height: 64px !important;
 	width: 100%;
 }
@@ -43,7 +47,6 @@ html {
 
 	.windowborder {
 		width: auto !important;
-		height: 64px;
 	}
 
 }
