@@ -43,45 +43,65 @@
 		 		</div>
 				<div class="col-lg-6">
 		 		</div>
-				<a href="../about.html" alt="Link to About Me" class="about col-lg-2">
-					<img src="buttons_about.png" />
+				<a href="about.html" alt="Link to About Me" class="about col-lg-2">
+					<img src="buttons_about.png" onmouseover="this.src='buttons_about_hover.png'" onmouseout="this.src='buttons_about.png'" />
 				</a>
 				<a href="mailto:eisahanin@gmail.com" alt="Contact. This will open the Email App!" class="contact col-lg-2">
-					<img src="buttons_contact.png" />
+					<img src="buttons_contact.png" onmouseover="this.src='buttons_contact_hover.png'" onmouseout="this.src='buttons_contact.png'" />
 				</a>
 			</div>
 
 		<br />
 </nav>
 </header>
-	<main class="container" aria-label="Portfolio Works" style="margin:auto; width:90%;">
-		<div class="row">
-			<a href="work/resonanz.html" alt="Resonanz. Website Design auf Mobile." aria-label="Resonanz. UI Design und Branding" class="col-lg-6 works-shown" style="background-image: url(src/resonanz/resonanz_mobil.webp)" >
-			</a>
-			<a href="work/aliN.html" aria-label="ali-N. Branding und Package Design" class="col-lg-6 works-shown" alt="ali-N." style="background-image: url(src/aliN/render.webp);">
-			</a>
+	<main style="margin:auto; width:90%;">
+		<div class="container" aria-label="Hi There!">
+			<div class="row">
+				<div class="col-lg">
+					<h1>Hiiii Ich bin Hanin!</h1>
+					<h2>Ich bin ein Designerin basiert in Wien, Österreich mit Erfahrung in Grafikdesign, UX Design und Web Design.</h2>
+					<br>
+					<h3>↓ Scroll runter um meine Sachen zu sehen! ↓</h3>
+				</div>
+				<div class="col-lg">
+					<img src="src/me.gif" alt="Ein Animation Selbstportrait" style="position: sticky;">
+				</div>
+			</div>
 		</div>
-		<div class="row">
+		<div class="container" aria-label="Portfolio Works" >
+			<div class="row">
+				<h3 class="col-lg">Meine Sachen!</h3>
+			</div>
+			<div class="row">
+				<a href="work/resonanz.html" alt="Resonanz. Website Design auf Mobile." aria-label="Resonanz. UI Design und Branding" class="col-lg-6 works-shown" style="background-image: url(src/resonanz/resonanz_mobil.webp)" >
+				</a>
+				<a href="work/aliN.html" aria-label="ali-N. Branding und Package Design" class="col-lg-6 works-shown" alt="ali-N." style="background-image: url(src/aliN/render.webp);">
+				</a>
+			</div>
+			<div class="row">
 
-			<a class="col-lg-6 works-shown" href="work/5thDT.html" aria-label="5th Dimensional Tavern. Branding" style="background-image: url(src/5DT_icon.webp);" >
-			</a>
-			<a class="col-lg-6 works-shown" href="work/buecherei.html" aria-label="Bauen Wir eine Buecherei. UX Research und Product Design" alt="Bauen Wir eine Buecherei. Ein Poster mit ein schwarz-weiß Zeichnung von ein Kopf mit geschlossenen Augen, die von der Augenbrauen geschnitten ist. Drinnen stehen Möbel, Bücher, eine Lampe, und Pflanze als Raumgestaltung. Außerhalb des Kopfes sind Pflanzen, ein Laptop mit Maus, ein Aufzug, und Wolken, die rum den Kopf sind. Mit dem Text ist orangen Braillestickers darauf geklebt." style="background-image: url(src/buch.webp); background-size: cover;" >
-			</a>
+				<a class="col-lg-6 works-shown" href="work/5thDT.html" aria-label="5th Dimensional Tavern. Branding" style="background-image: url(src/5DT_icon.webp);" >
+				</a>
+				<a class="col-lg-6 works-shown" href="work/buecherei.html" aria-label="Bauen Wir eine Buecherei. UX Research und Product Design" alt="Bauen Wir eine Buecherei. Ein Poster mit ein schwarz-weiß Zeichnung von ein Kopf mit geschlossenen Augen, die von der Augenbrauen geschnitten ist. Drinnen stehen Möbel, Bücher, eine Lampe, und Pflanze als Raumgestaltung. Außerhalb des Kopfes sind Pflanzen, ein Laptop mit Maus, ein Aufzug, und Wolken, die rum den Kopf sind. Mit dem Text ist orangen Braillestickers darauf geklebt." style="background-image: url(src/buch.webp); background-size: cover;" >
+				</a>
+			</div>
 		</div>
-
 	</main>
 
 	<style>
 
 	.works-shown {
-			border: 4px solid #black;
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;
+			background-clip: padding-box;
+			border: 48px solid transparent;
+			border-image: url(borderimg.png) 30% stretch;
+
 	}
 
 .works-shown:hover {
-	border: 4px solid #grey;
+	border: 2px solid black;
 }
 
 	@media screen and (max-width:420px) {
@@ -107,10 +127,10 @@
 		<div class="row">
 			<div class="col-lg-8"></div>
 			<a href="https://linkedin.com/in/hanineisa" class="linkedin col-lg-2" alt="LinkedIn">
-				<img src="buttons_linkedin.png" />
+				<img src="buttons_linkedin.png" onmouseover="this.src='buttons_linkedin_hover.png'" onmouseout="this.src='buttons_linkedin.png'" />
 			</a>
 			<a href="mailto:eisahanin@gmail.com" alt="Contact. This will open the Email App!" class="contact col-lg-2">
-				<img src="buttons_contact.png" />
+				<img src="buttons_contact.png" onmouseover="this.src='buttons_contact_hover.png'" onmouseout="this.src='buttons_contact.png'" />
 			</a>
 		</div>
 		</br>
